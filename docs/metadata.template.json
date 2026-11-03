@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "name": "SKILL_NAME",
+  "category": "CATEGORY",
+  "description": "One or two sentences: what it does and when to use it.",
+  "license": "MIT",
+  "vendored": true,
+  "modified": false,
+  "added": "YYYY-MM-DD",
+  "tags": [],
+  "aliases": [],
+  "triggers": [],
+  "source": {
+    "type": "github",
+    "repo": "OWNER/REPO",
+    "path": "skills/SKILL_NAME",
+    "commit": "FULL_COMMIT_SHA",
+    "url": "https://github.com/OWNER/REPO/tree/FULL_COMMIT_SHA/skills/SKILL_NAME",
+    "installed_via": "skill-finder"
+  },
+  "install": {
+    "project": "npx -y skills add sleeperagentai/skills --skill SKILL_NAME -y",
+    "global": "npx -y skills add sleeperagentai/skills --skill SKILL_NAME -g -y",
+    "upstream": "npx -y skills add OWNER/REPO --skill SKILL_NAME -y"
+  }
+}

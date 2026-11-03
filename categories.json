@@ -1,0 +1,14 @@
+{
+  "design": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+  "engineering": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+  "video": "Remotion and programmatic video, motion graphics, media pipelines",
+  "knowledge": "Knowledge graphs, diagrams, research, wikis and documentation tooling",
+  "devops": "CI, infrastructure, databases, observability, environment setup",
+  "github": "GitHub auth, pull requests, issues, code review and repo management",
+  "mlops": "Model training, inference serving, evaluation and ML tooling",
+  "productivity": "Documents, spreadsheets, PDFs, task trackers and everyday tools",
+  "creative": "Art, music, image and audio generation, visual experiments",
+  "agents": "Agent runtimes, MCP, computer use, automation of other software",
+  "project": "Skills written for the user's own projects (private context)",
+  "meta": "Skills about finding, installing and authoring skills"
+}
