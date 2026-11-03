@@ -51,7 +51,7 @@ to upstream. See [CONTRIBUTING.md](CONTRIBUTING.md) to add a skill.
 
 <!-- catalog:start -->
 
-**142 skills** in 12 categories, **9 collections** and **2 plugins** referenced.
+**143 skills** in 12 categories, **9 collections** and **2 plugins** referenced.
 
 ### agents — Agent runtimes, MCP, computer use, automation of other software
 
@@ -94,6 +94,7 @@ to upstream. See [CONTRIBUTING.md](CONTRIBUTING.md) to add a skill.
 |---|---|---|---|
 | [design-md](skills/design/design-md) | Author/validate/export Google's DESIGN.md token spec files. | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | `npx -y skills add sleeperagentai/skills --skill design-md -y` |
 | [design-taste-frontend](skills/design/design-taste-frontend) | tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curate… | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill/tree/12af471f627f866411b4bd785b19646d3672784c/skills/taste-skill) | `npx -y skills add sleeperagentai/skills --skill design-taste-frontend -y` |
+| [emil-design-eng](skills/design/emil-design-eng) | This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the in… | [emilkowalski/skills](https://github.com/emilkowalski/skills/tree/f1090bec277140d02ed202440185ad9d02ac1490/skills/emil-design-eng) | `npx -y skills add sleeperagentai/skills --skill emil-design-eng -y` |
 | [frontend-design](skills/design/frontend-design) | Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps… | [anthropics/skills](https://github.com/anthropics/skills/tree/ca45fc496a3436251f191354091d557da31c15b5/skills/frontend-design) | `npx -y skills add sleeperagentai/skills --skill frontend-design -y` |
 | [frontend-ui-engineering](skills/design/frontend-ui-engineering) | Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces… | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | `npx -y skills add sleeperagentai/skills --skill frontend-ui-engineering -y` |
 | [hallmark](skills/design/hallmark) | Design skill for websites and new pages that look designed, not generated. Use when the user asks to build or… | [Nutlope/hallmark](https://github.com/Nutlope/hallmark/tree/4f6a46c6dc325d40ab268c93e25c7b96676ebccd/skills/hallmark) | `npx -y skills add sleeperagentai/skills --skill hallmark -y` |
