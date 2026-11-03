@@ -1,0 +1,42 @@
+{
+  "added": "2026-11-03",
+  "added_by": "skill-finder",
+  "aliases": [
+    "pr-body",
+    "write-pr"
+  ],
+  "category": "engineering",
+  "description": "Use when writing a PR body.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill pr -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill pr -y",
+    "upstream": "npx -y skills add mattpocock/skills --skill pr -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "pr",
+  "quality": {
+    "upstream_installs": 0,
+    "upstream_stars": 310257,
+    "verdict": "ok",
+    "vetted_on": "2026-11-03"
+  },
+  "schema_version": 1,
+  "source": {
+    "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "installed_via": "skill-finder",
+    "path": "skills/engineering/pr",
+    "repo": "mattpocock/skills",
+    "type": "github",
+    "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/pr"
+  },
+  "tags": [
+    "pull-request",
+    "pr-body",
+    "pr-description",
+    "evidence",
+    "merge-risk"
+  ],
+  "triggers": [],
+  "vendored": true
+}
