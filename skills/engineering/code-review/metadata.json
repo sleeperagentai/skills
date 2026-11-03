@@ -1,0 +1,41 @@
+{
+  "added": "2026-11-03",
+  "added_by": "skill-finder",
+  "aliases": [
+    "mattpocock-code-review",
+    "review-pr"
+  ],
+  "category": "engineering",
+  "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them s",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill code-review -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill code-review -y",
+    "upstream": "npx -y skills add mattpocock/skills --skill code-review -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "code-review",
+  "quality": {
+    "upstream_installs": 0,
+    "upstream_stars": 310257,
+    "verdict": "ok",
+    "vetted_on": "2026-11-03"
+  },
+  "schema_version": 1,
+  "source": {
+    "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "installed_via": "skill-finder",
+    "path": "skills/engineering/code-review",
+    "repo": "mattpocock/skills",
+    "type": "github",
+    "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/code-review"
+  },
+  "tags": [
+    "code-review",
+    "pull-request",
+    "review",
+    "diff"
+  ],
+  "triggers": [],
+  "vendored": true
+}
