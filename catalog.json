@@ -240,7 +240,7 @@
   "counts": {
     "collections": 9,
     "plugins": 2,
-    "skills": 143
+    "skills": 148
   },
   "default_branch": "main",
   "plugins": [
@@ -2392,6 +2392,55 @@
     {
       "added": "2026-11-03",
       "aliases": [
+        "but-cli",
+        "gitbutler",
+        "gitbutler-skill"
+      ],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Commit, push, branch, and manage version control with GitButler. Use for commits, selective dirty-file or hunk commits, branches, diffs, PRs, history edits, squashes, amends, undo, merge, fetching, pulling and syncing a branch with its remote, apply, unapply, and linked worktrees. For selected dirty",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill but -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill but -y",
+        "upstream": "but skill install   # from the GitButler CLI, keeps the skill in step with the installed but version"
+      },
+      "kind": "skill",
+      "license": "FSL-1.1-MIT",
+      "name": "but",
+      "path": "skills/engineering/but",
+      "source": {
+        "commit": "6bf4a5382d57d01c2ff9191aefbe5e12a9883c24",
+        "installed_via": "but skill install (GitButler CLI 0.23.2 writes the version-matched skill to ~/.claude/skills/gitbutler)",
+        "note": "The in-repo SKILL.md carries a 0.0.0 placeholder version; the CLI stamps the real version on install, so this copy comes from the installed 0.23.2 artefact.",
+        "origin": "~/.claude/skills/gitbutler",
+        "path": "crates/but/skill",
+        "repo": "gitbutlerapp/gitbutler",
+        "type": "github",
+        "url": "https://github.com/gitbutlerapp/gitbutler/tree/6bf4a5382d57d01c2ff9191aefbe5e12a9883c24/crates/but/skill",
+        "version": "0.23.2"
+      },
+      "tags": [
+        "branches",
+        "but",
+        "commits",
+        "git",
+        "gitbutler",
+        "pull-request",
+        "stacks",
+        "version-control",
+        "worktrees"
+      ],
+      "triggers": [
+        "but commit",
+        "but status",
+        "gitbutler"
+      ],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
         "ci",
         "cicd",
         "github-actions"
@@ -2422,6 +2471,42 @@
         "deploy",
         "github-actions",
         "pipeline"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "mattpocock-code-review",
+        "review-pr"
+      ],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them s",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill code-review -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill code-review -y",
+        "upstream": "npx -y skills add mattpocock/skills --skill code-review -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "code-review",
+      "path": "skills/engineering/code-review",
+      "source": {
+        "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "installed_via": "skill-finder",
+        "path": "skills/engineering/code-review",
+        "repo": "mattpocock/skills",
+        "type": "github",
+        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/code-review"
+      },
+      "tags": [
+        "code-review",
+        "diff",
+        "pull-request",
+        "review"
       ],
       "triggers": [],
       "vendored": true
@@ -2755,6 +2840,82 @@
     },
     {
       "added": "2026-11-03",
+      "aliases": [
+        "grill",
+        "grilling",
+        "interview-me-hard"
+      ],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "A relentless interview to sharpen a plan or design. Thin entry point that invokes the grilling skill; install both.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill grill-me -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill grill-me -y",
+        "upstream": "npx -y skills add mattpocock/skills --skill grill-me -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "grill-me",
+      "path": "skills/engineering/grill-me",
+      "source": {
+        "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "installed_via": "skill-finder",
+        "path": "skills/productivity/grill-me",
+        "repo": "mattpocock/skills",
+        "type": "github",
+        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/grill-me"
+      },
+      "tags": [
+        "interview",
+        "plan",
+        "questions",
+        "requirements",
+        "stress-test"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "grill",
+        "grill-me-engine"
+      ],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill grilling -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill grilling -y",
+        "upstream": "npx -y skills add mattpocock/skills --skill grilling -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "grilling",
+      "path": "skills/engineering/grilling",
+      "source": {
+        "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "installed_via": "skill-finder",
+        "path": "skills/productivity/grilling",
+        "repo": "mattpocock/skills",
+        "type": "github",
+        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/grilling"
+      },
+      "tags": [
+        "design",
+        "interview",
+        "plan",
+        "questions",
+        "requirements",
+        "stress-test"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
       "aliases": [],
       "category": "engineering",
       "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
@@ -3070,6 +3231,43 @@
         "estimation",
         "planning",
         "tasks"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "pr-body",
+        "write-pr"
+      ],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Use when writing a PR body.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill pr -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill pr -y",
+        "upstream": "npx -y skills add mattpocock/skills --skill pr -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "pr",
+      "path": "skills/engineering/pr",
+      "source": {
+        "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+        "installed_via": "skill-finder",
+        "path": "skills/engineering/pr",
+        "repo": "mattpocock/skills",
+        "type": "github",
+        "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/engineering/pr"
+      },
+      "tags": [
+        "evidence",
+        "merge-risk",
+        "pr-body",
+        "pr-description",
+        "pull-request"
       ],
       "triggers": [],
       "vendored": true
