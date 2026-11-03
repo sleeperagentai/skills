@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Search Remotion documentation",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill remotion-docs -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill remotion-docs -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "remotion-docs",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/.agents/skills/remotion-docs",
+    "path": "skills/remotion-docs",
+    "ref": "37b76a9bf276ea3af65cc2090d86e4f2ee16f307",
+    "repo": "remotion-dev/skills",
+    "type": "github",
+    "url": "https://github.com/remotion-dev/skills"
+  },
+  "tags": [
+    "documentation",
+    "remotion",
+    "search"
+  ],
+  "vendored": true
+}

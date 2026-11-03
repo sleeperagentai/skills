@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Use this skill when building AI-powered multimedia generation platforms that require orchestration of multiple AI models (text, audio, image, video) with optional human approval checkpoints. This approach properly distinguishes between System 1 (fast, intuitive) and System 2 (reasoning, creative) AI",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill ai-agentic-multimedia-workflow -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill ai-agentic-multimedia-workflow -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "ai-agentic-multimedia-workflow",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/mlops/ai-agentic-multimedia-workflow",
+    "type": "local"
+  },
+  "tags": [
+    "ai-pipeline",
+    "audio",
+    "multimedia",
+    "video",
+    "workflow"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,30 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Transcribing, displaying and animating captions",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill remotion-captions -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill remotion-captions -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "remotion-captions",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/.agents/skills/remotion-captions",
+    "path": "skills/remotion-captions",
+    "ref": "9c355297f041e2c892a2e9957eb54bc4e83a83bc",
+    "repo": "remotion-dev/skills",
+    "type": "github",
+    "url": "https://github.com/remotion-dev/skills"
+  },
+  "tags": [
+    "captions",
+    "remotion",
+    "subtitles",
+    "transcription",
+    "whisper"
+  ],
+  "vendored": true
+}

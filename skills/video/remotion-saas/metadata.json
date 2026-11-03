@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Build an app with Remotion",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill remotion-saas -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill remotion-saas -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "remotion-saas",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/.agents/skills/remotion-saas",
+    "path": "skills/remotion-saas",
+    "ref": "89ae5f2615f7f5e813f39be351dc71483e3dfdd3",
+    "repo": "remotion-dev/skills",
+    "type": "github",
+    "url": "https://github.com/remotion-dev/skills"
+  },
+  "tags": [
+    "app",
+    "lambda",
+    "remotion",
+    "saas"
+  ],
+  "vendored": true
+}

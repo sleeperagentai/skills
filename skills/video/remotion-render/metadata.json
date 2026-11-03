@@ -1,0 +1,30 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Export a Remotion video",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill remotion-render -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill remotion-render -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "remotion-render",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/.agents/skills/remotion-render",
+    "path": "skills/remotion-render",
+    "ref": "8658c0bb1209a916aac87a43f4cdc43d59e81071",
+    "repo": "remotion-dev/skills",
+    "type": "github",
+    "url": "https://github.com/remotion-dev/skills"
+  },
+  "tags": [
+    "export",
+    "mp4",
+    "remotion",
+    "render",
+    "video"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Interacting with Mediabunny",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill remotion-multimedia -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill remotion-multimedia -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "remotion-multimedia",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/.agents/skills/remotion-multimedia",
+    "path": "skills/remotion-multimedia",
+    "ref": "0043ceca4cfae43edb69662e2a38c0fc7729a029",
+    "repo": "remotion-dev/skills",
+    "type": "github",
+    "url": "https://github.com/remotion-dev/skills"
+  },
+  "tags": [
+    "audio",
+    "mediabunny",
+    "remotion",
+    "video-processing"
+  ],
+  "vendored": true
+}

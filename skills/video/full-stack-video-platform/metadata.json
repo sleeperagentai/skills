@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Build a full-stack video processing platform with FastAPI backend, Next.js/Remotion frontend, Prefect orchestration, PostgreSQL database, MinIO/S3 storage, and Docker Compose for local/dev and cloud deployment.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill full-stack-video-platform -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill full-stack-video-platform -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "full-stack-video-platform",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/full-stack-video-platform",
+    "type": "local"
+  },
+  "tags": [
+    "fastapi",
+    "nextjs",
+    "platform",
+    "remotion",
+    "video"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Upgrade Remotion, and related packages",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill remotion-upgrade -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill remotion-upgrade -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "remotion-upgrade",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/.agents/skills/remotion-upgrade",
+    "path": "skills/remotion-upgrade",
+    "ref": "ce4afd8436a20cef3182aa922401d7a4346c34be",
+    "repo": "remotion-dev/skills",
+    "type": "github",
+    "url": "https://github.com/remotion-dev/skills"
+  },
+  "tags": [
+    "dependencies",
+    "remotion",
+    "upgrade"
+  ],
+  "vendored": true
+}

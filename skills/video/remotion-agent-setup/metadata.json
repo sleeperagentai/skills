@@ -1,0 +1,24 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Set up a Remotion project with agent skills for autonomous development.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill remotion-agent-setup -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill remotion-agent-setup -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "remotion-agent-setup",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/media/remotion-agent-setup",
+    "type": "local"
+  },
+  "tags": [
+    "agent",
+    "remotion",
+    "setup"
+  ],
+  "vendored": true
+}

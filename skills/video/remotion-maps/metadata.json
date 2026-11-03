@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Remotion Map animation knowledge",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill remotion-maps -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill remotion-maps -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "remotion-maps",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/.agents/skills/remotion-maps",
+    "path": "skills/remotion-maps",
+    "ref": "2e9b8cd9dab01d795a48665adb328cb7716e2b80",
+    "repo": "remotion-dev/skills",
+    "type": "github",
+    "url": "https://github.com/remotion-dev/skills"
+  },
+  "tags": [
+    "animation",
+    "mapbox",
+    "maps",
+    "remotion"
+  ],
+  "vendored": true
+}

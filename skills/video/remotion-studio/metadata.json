@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Preview a Remotion video",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill remotion-studio -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill remotion-studio -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "remotion-studio",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/.agents/skills/remotion-studio",
+    "path": "skills/remotion-studio",
+    "ref": "b62d6038afe365b1e046f61d7e6fdc002782a2ee",
+    "repo": "remotion-dev/skills",
+    "type": "github",
+    "url": "https://github.com/remotion-dev/skills"
+  },
+  "tags": [
+    "preview",
+    "remotion",
+    "studio"
+  ],
+  "vendored": true
+}

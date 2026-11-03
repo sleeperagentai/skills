@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Create a new Remotion video",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill remotion-create -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill remotion-create -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "remotion-create",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/.agents/skills/remotion-create",
+    "path": "skills/remotion-create",
+    "ref": "255281ee9a651c454a314092bfd13bdc737a5624",
+    "repo": "remotion-dev/skills",
+    "type": "github",
+    "url": "https://github.com/remotion-dev/skills"
+  },
+  "tags": [
+    "new-project",
+    "remotion",
+    "scaffold",
+    "video"
+  ],
+  "vendored": true
+}

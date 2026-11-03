@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "video",
+  "description": "Content, animation and effects best practices",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill remotion-markup -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill remotion-markup -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "remotion-markup",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/.agents/skills/remotion-markup",
+    "path": "skills/remotion-markup",
+    "ref": "42ab5de6550c2701405a809f2e2d88c57b4e9b5f",
+    "repo": "remotion-dev/skills",
+    "type": "github",
+    "url": "https://github.com/remotion-dev/skills"
+  },
+  "tags": [
+    "animation",
+    "content",
+    "effects",
+    "remotion"
+  ],
+  "vendored": true
+}
