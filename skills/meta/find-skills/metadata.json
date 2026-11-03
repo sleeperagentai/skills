@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "meta",
+  "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable ski",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill find-skills -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill find-skills -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "find-skills",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/.agents/skills/find-skills",
+    "path": "skills/find-skills",
+    "ref": "76a98a285cb0434f3d39e1a873823556330e398b",
+    "repo": "vercel-labs/skills",
+    "type": "github",
+    "url": "https://github.com/vercel-labs/skills"
+  },
+  "tags": [
+    "discovery",
+    "install",
+    "skills",
+    "skills.sh"
+  ],
+  "vendored": true
+}

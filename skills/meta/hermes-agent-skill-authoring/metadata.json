@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "meta",
+  "description": "Author in-repo SKILL.md files: frontmatter and structure.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill hermes-agent-skill-authoring -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill hermes-agent-skill-authoring -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "hermes-agent-skill-authoring",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/software-development/hermes-agent-skill-authoring",
+    "path": "optional-skills/software-development/hermes-agent-skill-authoring",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "authoring",
+    "hermes",
+    "skill-md",
+    "skills"
+  ],
+  "vendored": true
+}

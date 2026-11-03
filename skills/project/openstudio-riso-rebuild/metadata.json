@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "project",
+  "description": "OpenStudio Riso pixel-perfect UI rebuild (feat/riso-design).",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill openstudio-riso-rebuild -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill openstudio-riso-rebuild -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "openstudio-riso-rebuild",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/openstudio-development/openstudio-riso-rebuild",
+    "type": "local"
+  },
+  "tags": [
+    "openstudio",
+    "project",
+    "rebuild",
+    "riso"
+  ],
+  "vendored": true
+}

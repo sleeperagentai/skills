@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "meta",
+  "description": "Manage skills for Claude Code CLI: install, update, remove, and organize third-party skills.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill claude-code-skill-management -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill claude-code-skill-management -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "claude-code-skill-management",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/claude-code-skill-management",
+    "type": "local"
+  },
+  "tags": [
+    "claude-code",
+    "install",
+    "remove",
+    "skills",
+    "update"
+  ],
+  "vendored": true
+}

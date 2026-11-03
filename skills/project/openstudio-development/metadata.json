@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "project",
+  "description": "Use when working in the agentclip/openstudio monorepo.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill openstudio-development -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill openstudio-development -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "openstudio-development",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/openstudio-development",
+    "type": "local"
+  },
+  "tags": [
+    "go",
+    "monorepo",
+    "nextjs",
+    "openstudio",
+    "project",
+    "remotion",
+    "temporal"
+  ],
+  "vendored": true
+}
