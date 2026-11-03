@@ -1,0 +1,36 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "anthropic-frontend-design-skill"
+  ],
+  "category": "design",
+  "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill frontend-design -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill frontend-design -y",
+    "upstream": "npx -y skills add anthropics/skills --skill frontend-design -y"
+  },
+  "license": "",
+  "license_note": "Upstream repository publishes no license file; redistributed privately for personal use only.",
+  "modified": false,
+  "name": "frontend-design",
+  "schema_version": 1,
+  "source": {
+    "commit": "ca45fc496a3436251f191354091d557da31c15b5",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/anthropic-frontend-design-skill",
+    "path": "skills/frontend-design",
+    "repo": "anthropics/skills",
+    "type": "github",
+    "url": "https://github.com/anthropics/skills/tree/ca45fc496a3436251f191354091d557da31c15b5/skills/frontend-design"
+  },
+  "tags": [
+    "aesthetics",
+    "anthropic",
+    "design",
+    "frontend",
+    "ui",
+    "visual-design"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "design",
+  "description": "Ship Next.js App Router apps end-to-end.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill nextjs-app-router-production -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill nextjs-app-router-production -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "nextjs-app-router-production",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/frontend-ui-engineering/nextjs-app-router-production",
+    "type": "local"
+  },
+  "tags": [
+    "app-router",
+    "nextjs",
+    "production",
+    "react",
+    "server-components"
+  ],
+  "vendored": true
+}

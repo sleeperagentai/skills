@@ -1,0 +1,38 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "scandinavian-design-skill"
+  ],
+  "category": "design",
+  "description": "Apply a refined Scandinavian visual system with a neutral black-and-white foundation, restrained sans-serif typography, purposeful product imagery, generous spacing, clear page chapters, and minimal decoration. Use when the user invokes /scandinavian-design or requests a Nordic, monochrome, calm, sp",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill scandinavian-design -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill scandinavian-design -y",
+    "upstream": "npx -y skills add ericzakariasson/scandinavian-design --skill scandinavian-design -y"
+  },
+  "license": "",
+  "license_note": "Upstream repository publishes no license file; redistributed privately for personal use only.",
+  "modified": false,
+  "name": "scandinavian-design",
+  "schema_version": 1,
+  "source": {
+    "commit": "295742307b97fa0fb848f9be2d6e229ca517c736",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/scandinavian-design-skill",
+    "path": "skills/scandinavian-design",
+    "repo": "ericzakariasson/scandinavian-design",
+    "type": "github",
+    "url": "https://github.com/ericzakariasson/scandinavian-design/tree/295742307b97fa0fb848f9be2d6e229ca517c736/skills/scandinavian-design"
+  },
+  "tags": [
+    "brand-style",
+    "design",
+    "frontend",
+    "minimalism",
+    "monochrome",
+    "nordic",
+    "restyle",
+    "ui"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,36 @@
+{
+  "added": "2026-11-03",
+  "aliases": [],
+  "category": "design",
+  "description": "Design skill for websites and new pages that look designed, not generated. Use when the user asks to build or design something new, or names Hallmark. Never use it on an existing design unless the user names Hallmark, as in `/hallmark redesign <path>`.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill hallmark -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill hallmark -y",
+    "upstream": "npx -y skills add Nutlope/hallmark --skill hallmark -y"
+  },
+  "license": "MIT",
+  "license_note": "",
+  "modified": false,
+  "name": "hallmark",
+  "schema_version": 1,
+  "source": {
+    "commit": "4f6a46c6dc325d40ab268c93e25c7b96676ebccd",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/hallmark",
+    "path": "skills/hallmark",
+    "repo": "Nutlope/hallmark",
+    "type": "github",
+    "url": "https://github.com/Nutlope/hallmark/tree/4f6a46c6dc325d40ab268c93e25c7b96676ebccd/skills/hallmark"
+  },
+  "tags": [
+    "anti-slop",
+    "audit",
+    "design",
+    "frontend",
+    "handcrafted",
+    "landing-page",
+    "redesign",
+    "ui"
+  ],
+  "vendored": true
+}

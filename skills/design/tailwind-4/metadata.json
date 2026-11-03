@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "design",
+  "description": "Tailwind CSS 4 patterns and best practices. Trigger: When styling with Tailwind (className, variants, cn()), especially when dynamic styling or CSS variables are involved (no var() in className).",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill tailwind-4 -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill tailwind-4 -y"
+  },
+  "license": "Apache-2.0",
+  "modified": false,
+  "name": "tailwind-4",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install (skills.sh)",
+    "origin": "~/.hermes/skills/tailwind-4",
+    "repo": "prowler-cloud/prowler",
+    "type": "github",
+    "url": "https://github.com/prowler-cloud/prowler"
+  },
+  "tags": [
+    "css",
+    "styling",
+    "tailwind",
+    "utility-classes"
+  ],
+  "vendored": true
+}

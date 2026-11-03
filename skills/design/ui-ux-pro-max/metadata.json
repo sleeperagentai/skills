@@ -1,0 +1,39 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "ui-ux-pro-max-skill"
+  ],
+  "category": "design",
+  "description": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Se",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill ui-ux-pro-max -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill ui-ux-pro-max -y",
+    "upstream": "npx -y skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max -y"
+  },
+  "license": "MIT",
+  "license_note": "",
+  "modified": false,
+  "name": "ui-ux-pro-max",
+  "schema_version": 1,
+  "source": {
+    "commit": "713eef51b04efc98d6fa565323b495f7c9c89fd4",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/ui-ux-pro-max-skill",
+    "path": ".claude/skills/ui-ux-pro-max",
+    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "type": "github",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/713eef51b04efc98d6fa565323b495f7c9c89fd4/.claude/skills/ui-ux-pro-max"
+  },
+  "tags": [
+    "color",
+    "components",
+    "design",
+    "design-system",
+    "frontend",
+    "landing-page",
+    "typography",
+    "ui",
+    "ux"
+  ],
+  "vendored": true
+}

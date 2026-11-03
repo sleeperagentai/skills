@@ -1,0 +1,37 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "nothing-design-skill"
+  ],
+  "category": "design",
+  "description": "This skill should be used when the user explicitly says \"Nothing style\", \"Nothing design\", \"/nothing-design\", or directly asks to use/apply the Nothing design system. NEVER trigger automatically for generic UI or design tasks.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill nothing-design -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill nothing-design -y",
+    "upstream": "npx -y skills add dominikmartn/nothing-design-skill --skill nothing-design -y"
+  },
+  "license": "MIT",
+  "license_note": "",
+  "modified": false,
+  "name": "nothing-design",
+  "schema_version": 1,
+  "source": {
+    "commit": "74affbb786af098b18503467b205c10a7df30126",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/nothing-design-skill",
+    "path": "nothing-design",
+    "repo": "dominikmartn/nothing-design-skill",
+    "type": "github",
+    "url": "https://github.com/dominikmartn/nothing-design-skill/tree/74affbb786af098b18503467b205c10a7df30126/nothing-design"
+  },
+  "tags": [
+    "brand-style",
+    "design",
+    "frontend",
+    "industrial",
+    "monochrome",
+    "typography",
+    "ui"
+  ],
+  "vendored": true
+}

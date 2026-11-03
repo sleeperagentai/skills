@@ -1,0 +1,39 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "material-design-3-skill",
+    "material-design-3"
+  ],
+  "category": "design",
+  "description": "Implement Google's Material Design 3 (Material You) UI system. Primary: Jetpack Compose Material3 (MaterialTheme, components, adaptive layout). Also Flutter and limited web (@material/web, maintenance mode). Covers tokens, 30+ components, layout, theming, M3 Expressive (platform matrix), and accessi",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill material-3 -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill material-3 -y",
+    "upstream": "npx -y skills add hamen/material-3-skill --skill material-3 -y"
+  },
+  "license": "MIT",
+  "license_note": "",
+  "modified": false,
+  "name": "material-3",
+  "schema_version": 1,
+  "source": {
+    "commit": "14385f2bf3804d8779f8b4db2604211f1e70b4c1",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/material-design-3-skill",
+    "path": "skills/material-3",
+    "repo": "hamen/material-3-skill",
+    "type": "github",
+    "url": "https://github.com/hamen/material-3-skill/tree/14385f2bf3804d8779f8b4db2604211f1e70b4c1/skills/material-3"
+  },
+  "tags": [
+    "android",
+    "components",
+    "design",
+    "design-tokens",
+    "frontend",
+    "material-design",
+    "theming",
+    "ui"
+  ],
+  "vendored": true
+}

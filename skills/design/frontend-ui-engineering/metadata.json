@@ -1,0 +1,30 @@
+{
+  "added": "2026-11-03",
+  "category": "design",
+  "description": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-gene",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill frontend-ui-engineering -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill frontend-ui-engineering -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "frontend-ui-engineering",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/frontend-ui-engineering",
+    "path": "skills/frontend-ui-engineering",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "accessibility",
+    "components",
+    "react",
+    "responsive",
+    "state",
+    "wcag"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,30 @@
+{
+  "added": "2026-11-03",
+  "category": "design",
+  "description": "Strategic web design consultant for building, reviewing, or auditing websites and landing pages. Trigger when the user asks to build a landing page, review a site's messaging, write hero copy or CTAs, audit for \"AI slop,\" or plan page information architecture. Also trigger on keywords: \"landing page",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill yc-web-design-strategy -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill yc-web-design-strategy -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "yc-web-design-strategy",
+  "schema_version": 1,
+  "source": {
+    "note": "Upstream author unknown.",
+    "origin": "~/.claude/skills/yc-web-design-strategy-skill",
+    "type": "local"
+  },
+  "tags": [
+    "ai-slop",
+    "conversion",
+    "copywriting",
+    "cta",
+    "hero",
+    "landing-page",
+    "messaging",
+    "startup",
+    "website"
+  ],
+  "vendored": true
+}

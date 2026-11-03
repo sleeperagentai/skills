@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "design",
+  "description": "Design and improve user interfaces using the concrete rules from Refactoring UI (Wathan & Schoger) \u2014 constrained spacing/type/color/shadow scales, visual hierarchy through weight and color rather than size, and depth through emulated light. Use when building or styling any UI (web, app, dashboard, l",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill refactoring-ui -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill refactoring-ui -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "refactoring-ui",
+  "schema_version": 1,
+  "source": {
+    "note": "Upstream author unknown; content derived from Refactoring UI (Wathan & Schoger).",
+    "origin": "~/.claude/skills/refactoring-ui-skill",
+    "type": "local"
+  },
+  "tags": [
+    "color-palette",
+    "design-tokens",
+    "spacing",
+    "ui-polish",
+    "visual-hierarchy"
+  ],
+  "vendored": true
+}

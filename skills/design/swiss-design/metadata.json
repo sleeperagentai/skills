@@ -1,0 +1,39 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "swiss-design-system",
+    "swiss-design-skill"
+  ],
+  "category": "design",
+  "description": "Apply a Swiss International Style design system using Tailwind CSS. Use when asked to style a webpage, clean up a UI, apply a design system, make something look great, or when the user references Swiss design, grotesque fonts, Helvetica, grid systems, modernist typography, or 1960s/1950s design aest",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill swiss-design -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill swiss-design -y",
+    "upstream": "npx -y skills add zeke/swiss-design-skill --skill swiss-design -y"
+  },
+  "license": "MIT",
+  "license_note": "",
+  "modified": false,
+  "name": "swiss-design",
+  "schema_version": 1,
+  "source": {
+    "commit": "285009f3dc4ba311f59bb757973274de2c9446c3",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/swiss-design-system",
+    "path": "swiss-design",
+    "repo": "zeke/swiss-design-skill",
+    "type": "github",
+    "url": "https://github.com/zeke/swiss-design-skill/tree/285009f3dc4ba311f59bb757973274de2c9446c3/swiss-design"
+  },
+  "tags": [
+    "brand-style",
+    "design",
+    "frontend",
+    "grid",
+    "swiss-style",
+    "tailwind",
+    "typography",
+    "ui"
+  ],
+  "vendored": true
+}

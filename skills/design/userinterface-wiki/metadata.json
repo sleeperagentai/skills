@@ -1,0 +1,40 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "userinterfacewiki-skill",
+    "userinterface.wiki"
+  ],
+  "category": "design",
+  "description": "UI/UX best practices for web interfaces. Use when reviewing animations, CSS, audio, typography, UX patterns, prefetching, or icon implementations. Covers 11 categories from animation principles to typography. Outputs file:line findings.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill userinterface-wiki -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill userinterface-wiki -y",
+    "upstream": "npx -y skills add raphaelsalaja/userinterface-wiki --skill userinterface-wiki -y"
+  },
+  "license": "MIT",
+  "license_note": "",
+  "modified": false,
+  "name": "userinterface-wiki",
+  "schema_version": 1,
+  "source": {
+    "commit": "256a954080c8bcf1b1ceb1e2a4079d1f24cf593a",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/userinterfacewiki-skill",
+    "path": "skills",
+    "repo": "raphaelsalaja/userinterface-wiki",
+    "type": "github",
+    "url": "https://github.com/raphaelsalaja/userinterface-wiki/tree/256a954080c8bcf1b1ceb1e2a4079d1f24cf593a/skills"
+  },
+  "tags": [
+    "accessibility",
+    "color",
+    "design",
+    "frontend",
+    "layout",
+    "reference",
+    "typography",
+    "ui",
+    "ui-rules"
+  ],
+  "vendored": true
+}

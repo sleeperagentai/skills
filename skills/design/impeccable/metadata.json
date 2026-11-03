@@ -1,0 +1,37 @@
+{
+  "added": "2026-11-03",
+  "aliases": [],
+  "category": "design",
+  "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill impeccable -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill impeccable -y",
+    "upstream": "npx -y skills add pbakaus/impeccable --skill impeccable -y"
+  },
+  "license": "Apache-2.0",
+  "license_note": "",
+  "modified": false,
+  "name": "impeccable",
+  "schema_version": 1,
+  "source": {
+    "commit": "9fadc41729c38fd47d7ae622b501558653f9d2e9",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/impeccable",
+    "path": ".agents/skills/impeccable",
+    "repo": "pbakaus/impeccable",
+    "type": "github",
+    "url": "https://github.com/pbakaus/impeccable/tree/9fadc41729c38fd47d7ae622b501558653f9d2e9/.agents/skills/impeccable"
+  },
+  "tags": [
+    "anti-slop",
+    "css",
+    "design",
+    "design-review",
+    "frontend",
+    "landing-page",
+    "typography",
+    "ui",
+    "ui-polish"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,41 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "web-design-guidelines-skill",
+    "web-interface-guidelines",
+    "wig"
+  ],
+  "category": "design",
+  "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill web-design-guidelines -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill web-design-guidelines -y",
+    "upstream": "npx -y skills add vercel-labs/agent-skills --skill web-design-guidelines -y"
+  },
+  "license": "",
+  "license_note": "Upstream repository publishes no license file; redistributed privately for personal use only.",
+  "modified": false,
+  "name": "web-design-guidelines",
+  "schema_version": 1,
+  "source": {
+    "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/web-design-guidelines-skill",
+    "path": "skills/web-design-guidelines",
+    "repo": "vercel-labs/agent-skills",
+    "type": "github",
+    "url": "https://github.com/vercel-labs/agent-skills/tree/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62/skills/web-design-guidelines"
+  },
+  "tags": [
+    "accessibility",
+    "design",
+    "forms",
+    "frontend",
+    "review",
+    "ui",
+    "ux",
+    "vercel",
+    "web-interface-guidelines"
+  ],
+  "vendored": true
+}

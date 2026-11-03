@@ -1,0 +1,40 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "taste-skill",
+    "tasteskill"
+  ],
+  "category": "design",
+  "description": "tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curated gallery sites (One Page Love, Awwwards Sites of the Day). Deals researched directions (idea, composition, type, palette, photographs, section blueprints) from a library, enforces a strict n",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill design-taste-frontend -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill design-taste-frontend -y",
+    "upstream": "npx -y skills add Leonxlnx/taste-skill --skill design-taste-frontend -y"
+  },
+  "license": "MIT",
+  "license_note": "",
+  "modified": false,
+  "name": "design-taste-frontend",
+  "schema_version": 1,
+  "source": {
+    "commit": "12af471f627f866411b4bd785b19646d3672784c",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/taste-skill",
+    "path": "skills/taste-skill",
+    "repo": "Leonxlnx/taste-skill",
+    "type": "github",
+    "url": "https://github.com/Leonxlnx/taste-skill/tree/12af471f627f866411b4bd785b19646d3672784c/skills/taste-skill"
+  },
+  "tags": [
+    "anti-slop",
+    "art-direction",
+    "design",
+    "frontend",
+    "landing-page",
+    "layout",
+    "typography",
+    "ui",
+    "website"
+  ],
+  "vendored": true
+}

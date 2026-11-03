@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "design",
+  "description": "Add or upgrade Storybook for React+Vite apps.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill storybook-component-library -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill storybook-component-library -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "storybook-component-library",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/frontend-ui-engineering/storybook-component-library",
+    "type": "local"
+  },
+  "tags": [
+    "components",
+    "design-system",
+    "react",
+    "storybook"
+  ],
+  "vendored": true
+}

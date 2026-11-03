@@ -1,0 +1,37 @@
+{
+  "added": "2026-11-03",
+  "aliases": [],
+  "category": "design",
+  "description": "Design engineering principles for making interfaces feel polished. Use when building UI components, reviewing frontend code, implementing animations, hover states, shadows, borders, typography, icons, micro-interactions, enter/exit animations, or any visual detail work. Supports quick and full revie",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill make-interfaces-feel-better -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill make-interfaces-feel-better -y",
+    "upstream": "npx -y skills add jakubkrehel/make-interfaces-feel-better --skill make-interfaces-feel-better -y"
+  },
+  "license": "MIT",
+  "license_note": "",
+  "modified": false,
+  "name": "make-interfaces-feel-better",
+  "schema_version": 1,
+  "source": {
+    "commit": "35545ea1512ad59fa463e6b1f95ca9c052981fe6",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/make-interfaces-feel-better",
+    "path": "skills/make-interfaces-feel-better",
+    "repo": "jakubkrehel/make-interfaces-feel-better",
+    "type": "github",
+    "url": "https://github.com/jakubkrehel/make-interfaces-feel-better/tree/35545ea1512ad59fa463e6b1f95ca9c052981fe6/skills/make-interfaces-feel-better"
+  },
+  "tags": [
+    "animation",
+    "design",
+    "frontend",
+    "hover",
+    "micro-interactions",
+    "polish",
+    "shadows",
+    "typography",
+    "ui"
+  ],
+  "vendored": true
+}

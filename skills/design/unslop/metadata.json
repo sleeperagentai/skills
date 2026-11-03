@@ -1,0 +1,39 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "unslop-skill",
+    "deslop"
+  ],
+  "category": "design",
+  "description": "Cut AI tells from any writing.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill unslop -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill unslop -y",
+    "upstream": "npx -y skills add cursor/plugins --skill unslop -y"
+  },
+  "license": "",
+  "license_note": "Upstream repository publishes no license file; redistributed privately for personal use only.",
+  "modified": false,
+  "name": "unslop",
+  "schema_version": 1,
+  "source": {
+    "commit": "ae5650febf4320793844c12c4adaa937f417f8da",
+    "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+    "origin": "~/.claude/skills/unslop-skill",
+    "path": "pstack/skills/unslop",
+    "repo": "cursor/plugins",
+    "type": "github",
+    "url": "https://github.com/cursor/plugins/tree/ae5650febf4320793844c12c4adaa937f417f8da/pstack/skills/unslop"
+  },
+  "tags": [
+    "ai-slop",
+    "anti-slop",
+    "cleanup",
+    "copy",
+    "design",
+    "frontend",
+    "ui",
+    "writing"
+  ],
+  "vendored": true
+}

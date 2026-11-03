@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "design",
+  "description": "Manages shadcn components and projects \u2014 adding, searching, fixing, debugging, styling, and composing UI, including chat interfaces. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill shadcn -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill shadcn -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "shadcn",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install (skills.sh) / npx skills add shadcn/ui",
+    "origin": "~/.hermes/skills/shadcn",
+    "repo": "shadcn-ui/ui",
+    "type": "github",
+    "url": "https://github.com/shadcn-ui/ui"
+  },
+  "tags": [
+    "components",
+    "react",
+    "shadcn",
+    "tailwind",
+    "ui-library"
+  ],
+  "vendored": true
+}
