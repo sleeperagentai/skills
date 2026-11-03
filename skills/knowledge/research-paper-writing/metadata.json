@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "knowledge",
+  "description": "Write ML papers for NeurIPS/ICML/ICLR: design\u2192submit.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill research-paper-writing -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill research-paper-writing -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "research-paper-writing",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/research/research-paper-writing",
+    "path": "optional-skills/research/research-paper-writing",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "academic",
+    "latex",
+    "paper",
+    "research",
+    "writing"
+  ],
+  "vendored": true
+}

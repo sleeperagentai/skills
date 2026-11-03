@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "knowledge",
+  "description": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill blogwatcher -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill blogwatcher -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "blogwatcher",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/research/blogwatcher",
+    "path": "optional-skills/research/blogwatcher",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "blogs",
+    "feeds",
+    "monitoring",
+    "rss"
+  ],
+  "vendored": true
+}

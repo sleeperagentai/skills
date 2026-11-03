@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "knowledge",
+  "description": "Query Polymarket: markets, prices, orderbooks, history.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill polymarket -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill polymarket -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "polymarket",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/research/polymarket",
+    "path": "optional-skills/finance/polymarket",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "polymarket",
+    "prediction-markets",
+    "trading"
+  ],
+  "vendored": true
+}

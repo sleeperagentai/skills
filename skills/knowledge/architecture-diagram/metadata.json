@@ -1,0 +1,35 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "infra-diagram",
+    "system-diagram"
+  ],
+  "category": "knowledge",
+  "description": "Create polished dark-themed architecture diagrams as self-contained HTML+SVG files. Use when the user asks for system, infrastructure, cloud, security, or network topology diagrams.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill architecture-diagram -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill architecture-diagram -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "architecture-diagram",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/.agents/skills/architecture-diagram",
+    "path": "architecture-diagram",
+    "ref": "07b4fbe3d0dfc307deafd29038e96b247c6d7d27",
+    "repo": "cocoon-ai/architecture-diagram-generator",
+    "type": "github",
+    "url": "https://github.com/cocoon-ai/architecture-diagram-generator"
+  },
+  "tags": [
+    "architecture",
+    "diagram",
+    "html",
+    "infrastructure",
+    "svg",
+    "system-design"
+  ],
+  "vendored": true
+}
