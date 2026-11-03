@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "creative",
+  "description": "Control a running TouchDesigner instance via twozero MCP \u2014 create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 native tools.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill touchdesigner-mcp -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill touchdesigner-mcp -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "touchdesigner-mcp",
+  "schema_version": 1,
+  "source": {
+    "author": "kshitijk4poor",
+    "note": "Third-party skill authored by kshitijk4poor; installed via Hermes skills hub.",
+    "origin": "~/.hermes/skills/creative/touchdesigner-mcp",
+    "type": "third-party"
+  },
+  "tags": [
+    "generative",
+    "mcp",
+    "touchdesigner",
+    "visuals"
+  ],
+  "vendored": true
+}

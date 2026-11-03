@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "productivity",
+  "description": "Extract text from PDFs/scans (pymupdf, marker-pdf).",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill ocr-and-documents -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill ocr-and-documents -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "ocr-and-documents",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/productivity/ocr-and-documents",
+    "type": "local"
+  },
+  "tags": [
+    "documents",
+    "ocr",
+    "pdf",
+    "scanned",
+    "text-extraction"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "productivity",
+  "description": "Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill nano-pdf -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill nano-pdf -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "nano-pdf",
+  "schema_version": 1,
+  "source": {
+    "author": "community",
+    "note": "Community skill installed via Hermes skills hub.",
+    "origin": "~/.hermes/skills/productivity/nano-pdf",
+    "type": "third-party"
+  },
+  "tags": [
+    "documents",
+    "edit-pdf",
+    "pdf"
+  ],
+  "vendored": true
+}

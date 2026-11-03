@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "agents",
+  "description": "Drive the macOS desktop in the background \u2014 screenshots, mouse, keyboard, scroll, drag \u2014 without stealing the user's cursor, keyboard focus, or Space. Works with any tool-capable model. Load this skill whenever the `computer_use` tool is available.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill macos-computer-use -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill macos-computer-use -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "macos-computer-use",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/apple/macos-computer-use",
+    "type": "local"
+  },
+  "tags": [
+    "automation",
+    "computer-use",
+    "desktop",
+    "macos",
+    "screenshots"
+  ],
+  "vendored": true
+}

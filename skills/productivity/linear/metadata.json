@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "productivity",
+  "description": "Linear: manage issues, projects, teams via GraphQL + curl.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill linear -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill linear -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "linear",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/productivity/linear",
+    "type": "local"
+  },
+  "tags": [
+    "issues",
+    "linear",
+    "project-management"
+  ],
+  "vendored": true
+}

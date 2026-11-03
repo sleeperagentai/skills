@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "creative",
+  "description": "Use when building creative browser demos with @chenglou/pretext \u2014 DOM-free text layout for ASCII art, typographic flow around obstacles, text-as-geometry games, kinetic typography, and text-powered generative art. Produces single-file HTML demos by default.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill pretext -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill pretext -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "pretext",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/creative/pretext",
+    "path": "optional-skills/creative/pretext",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "canvas",
+    "demo",
+    "text-layout",
+    "typography"
+  ],
+  "vendored": true
+}

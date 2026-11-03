@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "agents",
+  "description": "Host modded Minecraft servers (CurseForge, Modrinth).",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill minecraft-modpack-server -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill minecraft-modpack-server -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "minecraft-modpack-server",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/gaming/minecraft-modpack-server",
+    "path": "optional-skills/gaming/minecraft-modpack-server",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "gaming",
+    "minecraft",
+    "modpack",
+    "server"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "creative",
+  "description": "Knowledge comics (\u77e5\u8bc6\u6f2b\u753b): educational, biography, tutorial.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill baoyu-comic -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill baoyu-comic -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "baoyu-comic",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/creative/baoyu-comic",
+    "path": "optional-skills/creative/baoyu-comic",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "chinese",
+    "comic",
+    "educational",
+    "illustration"
+  ],
+  "vendored": true
+}

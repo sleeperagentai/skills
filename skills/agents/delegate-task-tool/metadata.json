@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "agents",
+  "description": "Rules for using Hermes's delegate_task tool safely.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill delegate-task-tool -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill delegate-task-tool -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "delegate-task-tool",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/autonomous-ai-agents/delegate-task-tool",
+    "type": "local"
+  },
+  "tags": [
+    "delegation",
+    "hermes",
+    "subagent"
+  ],
+  "vendored": true
+}

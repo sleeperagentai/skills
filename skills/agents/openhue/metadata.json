@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "agents",
+  "description": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill openhue -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill openhue -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "openhue",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/smart-home/openhue",
+    "path": "optional-skills/smart-home/openhue",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "lights",
+    "philips-hue",
+    "smart-home"
+  ],
+  "vendored": true
+}

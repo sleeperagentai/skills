@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "agents",
+  "description": "Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill godmode -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill godmode -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "godmode",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/red-teaming/godmode",
+    "path": "optional-skills/security/godmode",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "jailbreak",
+    "llm-safety-testing",
+    "red-teaming"
+  ],
+  "vendored": true
+}

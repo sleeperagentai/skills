@@ -1,0 +1,31 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "word"
+  ],
+  "category": "productivity",
+  "description": "Create, read, edit, template, and review Word .docx files.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill docx -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill docx -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "docx",
+  "schema_version": 1,
+  "source": {
+    "author": "Nous Research",
+    "installed_via": "hermes skills hub",
+    "origin": "~/.hermes/skills/productivity/docx",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "documents",
+    "docx",
+    "office",
+    "word"
+  ],
+  "vendored": true
+}

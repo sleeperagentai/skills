@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "creative",
+  "description": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill ascii-art -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill ascii-art -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "ascii-art",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/creative/ascii-art",
+    "path": "optional-skills/creative/ascii-art",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "ascii",
+    "terminal",
+    "text-art"
+  ],
+  "vendored": true
+}

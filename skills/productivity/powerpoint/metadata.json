@@ -1,0 +1,32 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "pptx",
+    "slides"
+  ],
+  "category": "productivity",
+  "description": "Create, read, edit .pptx decks with python-pptx.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill powerpoint -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill powerpoint -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "powerpoint",
+  "schema_version": 1,
+  "source": {
+    "author": "Nous Research",
+    "installed_via": "hermes skills hub",
+    "origin": "~/.hermes/skills/productivity/powerpoint",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "office",
+    "pptx",
+    "presentation",
+    "slides"
+  ],
+  "vendored": true
+}

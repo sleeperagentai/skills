@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "agents",
+  "description": "Delegate coding to OpenCode CLI (features, PR review).",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill opencode -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill opencode -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "opencode",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/autonomous-ai-agents/opencode",
+    "path": "optional-skills/autonomous-ai-agents/opencode",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "coding-agent",
+    "delegation",
+    "opencode"
+  ],
+  "vendored": true
+}

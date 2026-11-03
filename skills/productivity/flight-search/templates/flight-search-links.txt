@@ -1,0 +1,16 @@
+# Flight Search URL Templates
+# Replace {ORIGIN}, {DESTINATION}, and {DATE} with actual values
+
+# Google Flights
+https://www.google.com/travel/flights?q=flights%20from%20{ORIGIN}%20to%20{DESTINATION}%20on%20{DATE}
+
+# Skyscanner
+https://www.skyscanner.net/transport/flights/{ORIGIN}/{DESTINATION}/{DATE}/
+
+# Kiwi.com
+https://www.kiwi.com/en/search/results/{ORIGIN}/{DESTINATION}/{DATE}/
+
+# Example for LHR to YYZ on 2026-07-03:
+# Google Flights: https://www.google.com/travel/flights?q=flights%20from%20LHR%20to%20YYZ%20on%202026-07-03
+# Skyscanner: https://www.skyscanner.net/transport/flights/LHR/YYZ/2026-07-03/
+# Kiwi.com: https://www.kiwi.com/en/search/results/LHR/YYZ/2026-07-03/

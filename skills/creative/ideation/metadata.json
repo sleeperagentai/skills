@@ -1,0 +1,31 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "creative-ideation"
+  ],
+  "category": "creative",
+  "description": "Generate project ideas via creative constraints.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill ideation -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill ideation -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "ideation",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/creative/creative-ideation",
+    "path": "optional-skills/creative/creative-ideation",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "brainstorm",
+    "constraints",
+    "creativity",
+    "ideas"
+  ],
+  "vendored": true
+}

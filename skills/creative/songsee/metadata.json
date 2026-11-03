@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "creative",
+  "description": "Audio spectrograms/features (mel, chroma, MFCC) via CLI.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill songsee -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill songsee -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "songsee",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/media/songsee",
+    "path": "optional-skills/media/songsee",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "audio-analysis",
+    "mfcc",
+    "spectrogram"
+  ],
+  "vendored": true
+}

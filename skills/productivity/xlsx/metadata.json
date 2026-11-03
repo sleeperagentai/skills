@@ -1,0 +1,33 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "excel",
+    "spreadsheet"
+  ],
+  "category": "productivity",
+  "description": "Create, read, edit Excel .xlsx workbooks and CSVs.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill xlsx -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill xlsx -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "xlsx",
+  "schema_version": 1,
+  "source": {
+    "author": "Nous Research",
+    "installed_via": "hermes skills hub",
+    "origin": "~/.hermes/skills/productivity/xlsx",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "csv",
+    "excel",
+    "office",
+    "spreadsheet",
+    "xlsx"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "creative",
+  "description": "Spotify: play, search, queue, manage playlists and devices.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill spotify -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill spotify -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "spotify",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/media/spotify",
+    "type": "local"
+  },
+  "tags": [
+    "music",
+    "playback",
+    "playlists",
+    "spotify"
+  ],
+  "vendored": true
+}

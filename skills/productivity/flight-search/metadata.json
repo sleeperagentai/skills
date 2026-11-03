@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "productivity",
+  "description": "Find cheap flights while dealing with anti-bot measures.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill flight-search -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill flight-search -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "flight-search",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/travel/flight-search",
+    "type": "local"
+  },
+  "tags": [
+    "booking",
+    "flights",
+    "search",
+    "travel"
+  ],
+  "vendored": true
+}

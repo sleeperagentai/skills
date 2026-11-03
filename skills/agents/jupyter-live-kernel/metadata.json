@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "agents",
+  "description": "Iterative Python via live Jupyter kernel (hamelnb).",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill jupyter-live-kernel -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill jupyter-live-kernel -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "jupyter-live-kernel",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/data-science/jupyter-live-kernel",
+    "type": "local"
+  },
+  "tags": [
+    "jupyter",
+    "kernel",
+    "notebook",
+    "python"
+  ],
+  "vendored": true
+}

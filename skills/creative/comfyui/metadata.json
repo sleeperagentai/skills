@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "creative",
+  "description": "Generate images, video, and audio with ComfyUI \u2014 install, launch, manage nodes/models, run workflows with parameter injection. Uses the official comfy-cli for lifecycle and direct REST/WebSocket API for execution.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill comfyui -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill comfyui -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "comfyui",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/creative/comfyui",
+    "path": "optional-skills/creative/comfyui",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "comfyui",
+    "image-generation",
+    "stable-diffusion",
+    "video-generation",
+    "workflows"
+  ],
+  "vendored": true
+}

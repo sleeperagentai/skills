@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "agents",
+  "description": "Embed Claude Agent SDK in-process: sandbox, caps, verify.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill claude-agent-sdk-embedding -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill claude-agent-sdk-embedding -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "claude-agent-sdk-embedding",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/autonomous-ai-agents/claude-agent-sdk-embedding",
+    "type": "local"
+  },
+  "tags": [
+    "claude-agent-sdk",
+    "embedding",
+    "sandbox",
+    "sdk"
+  ],
+  "vendored": true
+}

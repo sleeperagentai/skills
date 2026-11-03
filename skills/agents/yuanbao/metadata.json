@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "agents",
+  "description": "Yuanbao (\u5143\u5b9d) groups: @mention users, query info/members.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill yuanbao -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill yuanbao -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "yuanbao",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/yuanbao",
+    "type": "local"
+  },
+  "tags": [
+    "chat",
+    "groups",
+    "tencent",
+    "yuanbao"
+  ],
+  "vendored": true
+}
