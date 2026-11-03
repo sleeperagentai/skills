@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow applies to the piece of work at hand. This is the meta-skill that governs how all other skills are discovered and invoked.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill using-agent-skills -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill using-agent-skills -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "using-agent-skills",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/using-agent-skills",
+    "path": "skills/using-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "meta",
+    "skills",
+    "workflow"
+  ],
+  "vendored": true
+}

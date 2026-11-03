@@ -1,0 +1,30 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when handling user input, authentication, data storage, or external integrations, or when checking a login flow is safe against the OWASP Top Ten. Use when building any feature that accepts untrusted data, ",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill security-and-hardening -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill security-and-hardening -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "security-and-hardening",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/security-and-hardening",
+    "path": "skills/security-and-hardening",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "auth",
+    "dependencies",
+    "gdpr",
+    "input-validation",
+    "owasp",
+    "security"
+  ],
+  "vendored": true
+}

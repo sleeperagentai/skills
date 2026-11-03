@@ -1,0 +1,32 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "code-review",
+    "pr-review"
+  ],
+  "category": "engineering",
+  "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill code-review-and-quality -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill code-review-and-quality -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "code-review-and-quality",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/code-review-and-quality",
+    "path": "skills/code-review-and-quality",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "code-review",
+    "pull-request",
+    "quality",
+    "review-checklist"
+  ],
+  "vendored": true
+}

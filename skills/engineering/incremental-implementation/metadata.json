@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Delivers changes incrementally in thin, verifiable slices. Use when implementing any feature or change that touches more than one file, or when picking up the next task from a plan. Use when rolling a change out behind a feature flag, when you're about to write a large amount of code at once, or whe",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill incremental-implementation -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill incremental-implementation -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "incremental-implementation",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/incremental-implementation",
+    "path": "skills/incremental-implementation",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "feature-flag",
+    "incremental",
+    "slices"
+  ],
+  "vendored": true
+}

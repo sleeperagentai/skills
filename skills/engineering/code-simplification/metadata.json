@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill code-simplification -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill code-simplification -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "code-simplification",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/code-simplification",
+    "path": "skills/code-simplification",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "cleanup",
+    "readability",
+    "refactor",
+    "simplify"
+  ],
+  "vendored": true
+}

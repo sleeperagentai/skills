@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding, when stress-testing a plan for hidden failure modes, when correctness matters more than speed, when working in unfamiliar code, when stakes",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill doubt-driven-development -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill doubt-driven-development -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "doubt-driven-development",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/doubt-driven-development",
+    "path": "skills/doubt-driven-development",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "adversarial-review",
+    "assumptions",
+    "high-stakes"
+  ],
+  "vendored": true
+}

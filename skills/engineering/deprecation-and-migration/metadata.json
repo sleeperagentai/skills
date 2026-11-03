@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in production, such as renaming or dropping a column without downtime (expand/contract). Use when deciding whether to",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill deprecation-and-migration -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill deprecation-and-migration -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "deprecation-and-migration",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/deprecation-and-migration",
+    "path": "skills/deprecation-and-migration",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "deprecation",
+    "expand-contract",
+    "migration",
+    "schema-migration"
+  ],
+  "vendored": true
+}

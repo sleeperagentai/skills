@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when drafting a PRD or requirements document with objectives and scope, or when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requ",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill spec-driven-development -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill spec-driven-development -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "spec-driven-development",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/spec-driven-development",
+    "path": "skills/spec-driven-development",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "capability-map",
+    "prd",
+    "requirements",
+    "spec"
+  ],
+  "vendored": true
+}

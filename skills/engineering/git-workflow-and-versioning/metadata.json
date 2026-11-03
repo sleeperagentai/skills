@@ -1,0 +1,35 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "git",
+    "semver"
+  ],
+  "category": "engineering",
+  "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, splitting uncommitted work in a messy working tree into clean atomic commits, opening or reviewing a pull request (PR), pushing to a remote, or when you need to organize work acro",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill git-workflow-and-versioning -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill git-workflow-and-versioning -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "git-workflow-and-versioning",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/git-workflow-and-versioning",
+    "path": "skills/git-workflow-and-versioning",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "branching",
+    "changelog",
+    "commits",
+    "git",
+    "pull-request",
+    "release",
+    "semver"
+  ],
+  "vendored": true
+}

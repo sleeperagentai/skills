@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Records decisions and documentation. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill documentation-and-adrs -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill documentation-and-adrs -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "documentation-and-adrs",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/documentation-and-adrs",
+    "path": "skills/documentation-and-adrs",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "adr",
+    "architecture-decision",
+    "docs",
+    "readme"
+  ],
+  "vendored": true
+}

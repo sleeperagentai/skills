@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness ",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill source-driven-development -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill source-driven-development -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "source-driven-development",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/source-driven-development",
+    "path": "skills/source-driven-development",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "citations",
+    "framework",
+    "official-docs"
+  ],
+  "vendored": true
+}

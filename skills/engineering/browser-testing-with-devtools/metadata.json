@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MC",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill browser-testing-with-devtools -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill browser-testing-with-devtools -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "browser-testing-with-devtools",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/browser-testing-with-devtools",
+    "path": "skills/browser-testing-with-devtools",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "browser",
+    "chrome-devtools",
+    "console",
+    "e2e",
+    "network"
+  ],
+  "vendored": true
+}

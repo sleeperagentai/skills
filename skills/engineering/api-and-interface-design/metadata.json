@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill api-and-interface-design -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill api-and-interface-design -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "api-and-interface-design",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/api-and-interface-design",
+    "path": "skills/api-and-interface-design",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "api",
+    "contracts",
+    "graphql",
+    "interfaces",
+    "rest"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill planning-and-task-breakdown -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill planning-and-task-breakdown -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "planning-and-task-breakdown",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/planning-and-task-breakdown",
+    "path": "skills/planning-and-task-breakdown",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "breakdown",
+    "estimation",
+    "planning",
+    "tasks"
+  ],
+  "vendored": true
+}

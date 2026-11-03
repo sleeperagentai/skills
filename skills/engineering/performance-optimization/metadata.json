@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regressions, when Core Web Vitals or load times need improvement, when N+1 query patterns need fixing, or when profiling reveals bottlenecks.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill performance-optimization -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill performance-optimization -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "performance-optimization",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/performance-optimization",
+    "path": "skills/performance-optimization",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "core-web-vitals",
+    "latency",
+    "n+1",
+    "performance",
+    "profiling"
+  ],
+  "vendored": true
+}

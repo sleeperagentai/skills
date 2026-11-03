@@ -1,0 +1,34 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "ci",
+    "cicd",
+    "github-actions"
+  ],
+  "category": "engineering",
+  "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill ci-cd-and-automation -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill ci-cd-and-automation -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "ci-cd-and-automation",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/ci-cd-and-automation",
+    "path": "skills/ci-cd-and-automation",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "cd",
+    "ci",
+    "deploy",
+    "github-actions",
+    "pipeline"
+  ],
+  "vendored": true
+}

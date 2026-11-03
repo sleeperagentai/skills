@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Edit OpenAPI 3.1 specs; split via $ref; redocly validate.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill openapi-spec-authoring -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill openapi-spec-authoring -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "openapi-spec-authoring",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/software-development/openapi-spec-authoring",
+    "type": "local"
+  },
+  "tags": [
+    "api-spec",
+    "openapi",
+    "rest",
+    "swagger"
+  ],
+  "vendored": true
+}

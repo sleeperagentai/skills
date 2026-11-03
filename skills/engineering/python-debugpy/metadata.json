@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Debug Python: pdb REPL + debugpy remote (DAP).",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill python-debugpy -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill python-debugpy -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "python-debugpy",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/software-development/python-debugpy",
+    "path": "optional-skills/software-development/python-debugpy",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "breakpoints",
+    "debugger",
+    "debugpy",
+    "python"
+  ],
+  "vendored": true
+}

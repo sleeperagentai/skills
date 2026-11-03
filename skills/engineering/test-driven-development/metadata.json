@@ -1,0 +1,32 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "tdd"
+  ],
+  "category": "engineering",
+  "description": "Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill test-driven-development -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill test-driven-development -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "test-driven-development",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/test-driven-development",
+    "path": "skills/test-driven-development",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "bug-fix",
+    "red-green-refactor",
+    "tdd",
+    "testing",
+    "unit-tests"
+  ],
+  "vendored": true
+}

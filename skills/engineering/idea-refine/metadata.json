@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on \"ideate\", \"refine th",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill idea-refine -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill idea-refine -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "idea-refine",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/idea-refine",
+    "path": "skills/idea-refine",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "brainstorm",
+    "ideation",
+    "refine",
+    "stress-test"
+  ],
+  "vendored": true
+}

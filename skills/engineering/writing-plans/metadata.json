@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Write implementation plans: bite-sized tasks, paths, code.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill writing-plans -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill writing-plans -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "writing-plans",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent (adapted from obra/superpowers)",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/software-development/writing-plans",
+    "type": "local"
+  },
+  "tags": [
+    "implementation-plan",
+    "plans",
+    "tasks"
+  ],
+  "vendored": true
+}

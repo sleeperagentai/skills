@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why \u2014 a systematic approach to finding and fixing the root caus",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill debugging-and-error-recovery -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill debugging-and-error-recovery -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "debugging-and-error-recovery",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/debugging-and-error-recovery",
+    "path": "skills/debugging-and-error-recovery",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "broken-build",
+    "debugging",
+    "errors",
+    "failing-tests",
+    "root-cause"
+  ],
+  "vendored": true
+}

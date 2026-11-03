@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the availabl",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill observability-and-instrumentation -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill observability-and-instrumentation -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "observability-and-instrumentation",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/observability-and-instrumentation",
+    "path": "skills/observability-and-instrumentation",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "alerting",
+    "logging",
+    "metrics",
+    "observability",
+    "tracing"
+  ],
+  "vendored": true
+}

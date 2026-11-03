@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Execute plans via delegate_task subagents (2-stage review).",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill subagent-driven-development -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill subagent-driven-development -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "subagent-driven-development",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/software-development/subagent-driven-development",
+    "path": "optional-skills/software-development/subagent-driven-development",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "delegation",
+    "parallel",
+    "subagents"
+  ],
+  "vendored": true
+}

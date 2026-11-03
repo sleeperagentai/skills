@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Rate limit Go HTTP APIs",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill rate-limiting-go -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill rate-limiting-go -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "rate-limiting-go",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/rate-limiting-go",
+    "type": "local"
+  },
+  "tags": [
+    "go",
+    "golang",
+    "rate-limit",
+    "throttling"
+  ],
+  "vendored": true
+}

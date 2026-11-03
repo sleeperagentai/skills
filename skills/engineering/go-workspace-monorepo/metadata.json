@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Use when adding intra-repo imports in a Go monorepo.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill go-workspace-monorepo -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill go-workspace-monorepo -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "go-workspace-monorepo",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/software-development/go-workspace-monorepo",
+    "type": "local"
+  },
+  "tags": [
+    "go",
+    "go.work",
+    "golang",
+    "monorepo"
+  ],
+  "vendored": true
+}

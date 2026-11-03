@@ -1,0 +1,29 @@
+{
+  "added": "2026-11-03",
+  "category": "engineering",
+  "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill context-engineering -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill context-engineering -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "context-engineering",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "npx skills add",
+    "origin": "~/Workspace/openstudio/.agents/skills/context-engineering",
+    "path": "skills/context-engineering",
+    "repo": "addyosmani/agent-skills",
+    "type": "github",
+    "url": "https://github.com/addyosmani/agent-skills"
+  },
+  "tags": [
+    "agents-md",
+    "claude-md",
+    "context",
+    "rules-files",
+    "session"
+  ],
+  "vendored": true
+}
