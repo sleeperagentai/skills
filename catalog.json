@@ -1,0 +1,5199 @@
+{
+  "categories": {
+    "agents": "Agent runtimes, MCP, computer use, automation of other software",
+    "creative": "Art, music, image and audio generation, visual experiments",
+    "design": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+    "devops": "CI, infrastructure, databases, observability, environment setup",
+    "engineering": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+    "github": "GitHub auth, pull requests, issues, code review and repo management",
+    "knowledge": "Knowledge graphs, diagrams, research, wikis and documentation tooling",
+    "meta": "Skills about finding, installing and authoring skills",
+    "mlops": "Model training, inference serving, evaluation and ML tooling",
+    "productivity": "Documents, spreadsheets, PDFs, task trackers and everyday tools",
+    "project": "Skills written for the user's own projects (private context)",
+    "video": "Remotion and programmatic video, motion graphics, media pipelines"
+  },
+  "collections": [
+    {
+      "added": "2026-11-03",
+      "description": "Anthropic's public Agent Skills: docx, pdf, pptx, xlsx, skill-creator, frontend-design, mcp-builder, webapp-testing, canvas-design, theme-factory and more. The proprietary copies synced from claude.ai are not redistributed here.",
+      "install": {
+        "documents": "npx -y skills add anthropics/skills --skill docx --skill pdf --skill pptx --skill xlsx -y",
+        "example": "npx -y skills add anthropics/skills --skill pdf -y",
+        "skill_creator": "npx -y skills add anthropics/skills --skill skill-creator -y"
+      },
+      "kind": "collection",
+      "license": "see repo (per-skill LICENSE.txt)",
+      "name": "anthropic-skills",
+      "origin": "~/.claude/skills/synced/* (claude.ai synced, proprietary license)",
+      "path": "collections/anthropic-skills.json",
+      "repo": "anthropics/skills",
+      "skills_count": 20,
+      "stars": 186775,
+      "tags": [
+        "documents",
+        "office",
+        "skill-authoring",
+        "anthropic"
+      ],
+      "url": "https://github.com/anthropics/skills",
+      "vendored": false
+    },
+    {
+      "added": "2026-11-03",
+      "description": "Library of DESIGN.md files reverse-engineered from popular brand design systems (color, type, components, layout). Drop one into a project root and tell the agent to follow it.",
+      "install": {
+        "clone": "git clone --depth 1 https://github.com/VoltAgent/awesome-design-md",
+        "usage": "Copy the wanted <site>/DESIGN.md into your project root and reference it from your agent instructions (AGENTS.md / CLAUDE.md)."
+      },
+      "kind": "collection",
+      "license": "MIT",
+      "name": "awesome-design-md",
+      "origin": "~/.claude/skills/awesome-designmd (broken HTML copy)",
+      "path": "collections/awesome-design-md.json",
+      "repo": "VoltAgent/awesome-design-md",
+      "skills_count": 0,
+      "stars": 125272,
+      "tags": [
+        "design",
+        "design-system",
+        "DESIGN.md",
+        "reference"
+      ],
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "vendored": false
+    },
+    {
+      "added": "2026-11-03",
+      "description": "Bencium's design and development skills: controlled and innovative UX designer, impact designer, design audit, code conventions (React, Next.js, TypeScript, Tailwind, Supabase), AEO.",
+      "install": {
+        "all": "npx -y skills add bencium/bencium-claude-code-design-skill --all -y",
+        "claude_code_plugin": "/plugin marketplace add bencium/bencium-marketplace, then /plugin install <plugin>@bencium-marketplace",
+        "example": "npx -y skills add bencium/bencium-claude-code-design-skill --skill bencium-innovative-ux-designer -y"
+      },
+      "kind": "collection",
+      "license": "MIT",
+      "name": "bencium-design-skills",
+      "origin": "~/.claude/skills/bencium-marketplace (broken HTML copy)",
+      "path": "collections/bencium-design-skills.json",
+      "related_repos": [
+        "bencium/bencium-marketplace"
+      ],
+      "repo": "bencium/bencium-claude-code-design-skill",
+      "skills_count": 13,
+      "stars": 476,
+      "tags": [
+        "design",
+        "ux",
+        "conventions",
+        "plugin-marketplace"
+      ],
+      "url": "https://github.com/bencium/bencium-claude-code-design-skill",
+      "vendored": false
+    },
+    {
+      "added": "2026-11-03",
+      "description": "OneRedOak's Claude Code workflows: design-review (Playwright-driven front-end review agent and /design-review command), code-review and security-review setups.",
+      "install": {
+        "clone": "git clone --depth 1 https://github.com/OneRedOak/claude-code-workflows",
+        "usage": "Clone the repo and copy design-review/ files (slash command, agent, design-principles example) into your agent's commands/agents directories as described in its README."
+      },
+      "kind": "collection",
+      "license": "MIT",
+      "name": "claude-code-workflows",
+      "origin": "~/.claude/skills/claude-code-design-review-workflow (broken HTML copy)",
+      "path": "collections/claude-code-workflows.json",
+      "repo": "OneRedOak/claude-code-workflows",
+      "skills_count": 3,
+      "stars": 3914,
+      "tags": [
+        "design-review",
+        "workflow",
+        "playwright",
+        "code-review"
+      ],
+      "url": "https://github.com/OneRedOak/claude-code-workflows",
+      "vendored": false
+    },
+    {
+      "added": "2026-11-03",
+      "description": "Designer Skills Collection by Marie Claire Dean: 63 design skills and 27 commands in 8 plugins covering research, UX, visual design, content and developer handoff.",
+      "install": {
+        "all": "npx -y skills add Owl-Listener/designer-skills --all -y",
+        "claude_code_plugin": "/plugin marketplace add Owl-Listener/designer-skills, then /plugin install <plugin>@designer-skills",
+        "example": "npx -y skills add Owl-Listener/designer-skills --skill design-critique -y"
+      },
+      "kind": "collection",
+      "license": "MIT",
+      "name": "designer-skills",
+      "origin": "~/.claude/skills/designer-skills-collection (broken HTML copy)",
+      "path": "collections/designer-skills.json",
+      "repo": "Owl-Listener/designer-skills",
+      "skills_count": 63,
+      "stars": 3219,
+      "tags": [
+        "design",
+        "ux",
+        "research",
+        "handoff",
+        "plugin-marketplace"
+      ],
+      "url": "https://github.com/Owl-Listener/designer-skills",
+      "vendored": false
+    },
+    {
+      "added": "2026-11-03",
+      "description": "Emil Kowalski's skills for design engineers: emil-design-eng (animation and UI polish), review-animations, improve-animations, find-animation-opportunities, animation-vocabulary, pick-ui-library.",
+      "install": {
+        "all": "npx -y skills add emilkowalski/skills --all -y",
+        "example": "npx -y skills add emilkowalski/skills --skill emil-design-eng -y"
+      },
+      "kind": "collection",
+      "license": "MIT",
+      "name": "emil-kowalski-skills",
+      "origin": "~/.claude/skills/emil-kowalski-skills (broken HTML copy)",
+      "path": "collections/emil-kowalski-skills.json",
+      "repo": "emilkowalski/skills",
+      "skills_count": 10,
+      "stars": 53040,
+      "tags": [
+        "design",
+        "animation",
+        "motion",
+        "ui"
+      ],
+      "url": "https://github.com/emilkowalski/skills",
+      "vendored": false
+    },
+    {
+      "added": "2026-11-03",
+      "description": "StyleSeed design-method engine: ss-setup wizard scaffolds a DESIGN-LANGUAGE.md and golden rules for a project; ss-update keeps the engine current.",
+      "install": {
+        "all": "npx -y skills add bitjaru/styleseed --all -y",
+        "example": "npx -y skills add bitjaru/styleseed --skill ss-setup -y"
+      },
+      "kind": "collection",
+      "license": "MIT",
+      "name": "styleseed",
+      "origin": "~/.claude/skills/styleseed (broken HTML copy)",
+      "path": "collections/styleseed.json",
+      "repo": "bitjaru/styleseed",
+      "skills_count": 2,
+      "stars": 998,
+      "tags": [
+        "design",
+        "design-system",
+        "workflow"
+      ],
+      "url": "https://github.com/bitjaru/styleseed",
+      "vendored": false
+    },
+    {
+      "added": "2026-11-03",
+      "description": "Curated Three.js skill files (fundamentals, geometry, materials, lighting, animation, shaders, post-processing) for building 3D web experiences.",
+      "install": {
+        "all": "npx -y skills add CloudAI-X/threejs-skills --all -y",
+        "list": "npx -y skills add CloudAI-X/threejs-skills --list"
+      },
+      "kind": "collection",
+      "license": "MIT",
+      "name": "threejs-skills",
+      "origin": "~/.claude/skills/threejs-skills (broken HTML copy)",
+      "path": "collections/threejs-skills.json",
+      "repo": "CloudAI-X/threejs-skills",
+      "skills_count": 0,
+      "stars": 3926,
+      "tags": [
+        "threejs",
+        "3d",
+        "webgl",
+        "creative"
+      ],
+      "url": "https://github.com/CloudAI-X/threejs-skills",
+      "vendored": false
+    },
+    {
+      "added": "2026-11-03",
+      "description": "Vercel's official agent skills: react-best-practices, web-design-guidelines, composition-patterns, react-view-transitions, react-native, deploy-to-vercel, vercel-optimize, writing-guidelines.",
+      "install": {
+        "all": "npx -y skills add vercel-labs/agent-skills --all -y",
+        "example": "npx -y skills add vercel-labs/agent-skills --skill vercel-react-best-practices -y"
+      },
+      "kind": "collection",
+      "license": "see repo",
+      "name": "vercel-agent-skills",
+      "origin": "web-design-guidelines vendored under skills/design; rest referenced here",
+      "path": "collections/vercel-agent-skills.json",
+      "repo": "vercel-labs/agent-skills",
+      "skills_count": 9,
+      "stars": 33422,
+      "tags": [
+        "react",
+        "nextjs",
+        "vercel",
+        "web"
+      ],
+      "url": "https://github.com/vercel-labs/agent-skills",
+      "vendored": false
+    }
+  ],
+  "counts": {
+    "collections": 9,
+    "plugins": 2,
+    "skills": 142
+  },
+  "default_branch": "main",
+  "plugins": [
+    {
+      "added": "2026-11-03",
+      "description": "Lazy senior dev mode: forces the simplest, shortest solution that works (YAGNI, stdlib first, no unrequested abstractions). Ships skills ponytail, ponytail-review, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help plus hooks and a status line.",
+      "install": {
+        "claude_code": "/plugin marketplace add DietrichGebert/ponytail, then /plugin install ponytail@ponytail",
+        "other_agents": "See README: Codex, Cursor, OpenCode, Gemini, Kiro, Windsurf, Cline, OpenClaw and Hermes adapters are included in the repo.",
+        "skills_cli": "npx -y skills add DietrichGebert/ponytail --all -y"
+      },
+      "kind": "plugin",
+      "license": "MIT",
+      "name": "ponytail",
+      "origin": "~/.claude/plugins/cache/ponytail (project scope: ~/Workspace/openstudio)",
+      "path": "plugins/ponytail.json",
+      "repo": "DietrichGebert/ponytail",
+      "stars": 182905,
+      "tags": [
+        "code-quality",
+        "simplicity",
+        "review",
+        "plugin"
+      ],
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "vendored": false,
+      "version_used": "4.10.0"
+    },
+    {
+      "added": "2026-11-03",
+      "description": "Superwhisper voice integration: speaks a notification when the agent finishes a task so you can dictate the next command. Skill /superwhisper toggles it on/off.",
+      "install": {
+        "claude_code": "/plugin marketplace add superultrainc/superwhisper-claude-code, then /plugin install superwhisper@superwhisper",
+        "requires": "Superwhisper app installed on macOS"
+      },
+      "kind": "plugin",
+      "license": "",
+      "name": "superwhisper",
+      "origin": "~/.claude/plugins/cache/superwhisper (user scope)",
+      "path": "plugins/superwhisper.json",
+      "repo": "superultrainc/superwhisper-claude-code",
+      "stars": 61,
+      "tags": [
+        "voice",
+        "notifications",
+        "productivity",
+        "plugin"
+      ],
+      "url": "https://github.com/superultrainc/superwhisper-claude-code",
+      "vendored": false,
+      "version_used": "1.0.0"
+    }
+  ],
+  "repo": "sleeperagentai/skills",
+  "schema_version": 1,
+  "skills": [
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "Embed Claude Agent SDK in-process: sandbox, caps, verify.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill claude-agent-sdk-embedding -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill claude-agent-sdk-embedding -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "claude-agent-sdk-embedding",
+      "path": "skills/agents/claude-agent-sdk-embedding",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/autonomous-ai-agents/claude-agent-sdk-embedding",
+        "type": "local"
+      },
+      "tags": [
+        "claude-agent-sdk",
+        "embedding",
+        "llm-agent",
+        "remotion",
+        "sandbox",
+        "sdk",
+        "temporal"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "Debug Hermes TUI slash commands: Python, gateway, Ink UI.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill debugging-hermes-tui-commands -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill debugging-hermes-tui-commands -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "debugging-hermes-tui-commands",
+      "path": "skills/agents/debugging-hermes-tui-commands",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/software-development/debugging-hermes-tui-commands",
+        "type": "local"
+      },
+      "tags": [
+        "debugging",
+        "hermes",
+        "hermes-agent",
+        "python",
+        "slash-commands",
+        "tui",
+        "typescript"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "Rules for using Hermes's delegate_task tool safely.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill delegate-task-tool -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill delegate-task-tool -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "delegate-task-tool",
+      "path": "skills/agents/delegate-task-tool",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/autonomous-ai-agents/delegate-task-tool",
+        "type": "local"
+      },
+      "tags": [
+        "delegation",
+        "hermes",
+        "hermes-tool",
+        "subagent"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill godmode -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill godmode -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "godmode",
+      "path": "skills/agents/godmode",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/red-teaming/godmode",
+        "path": "optional-skills/security/godmode",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "g0dm0d3",
+        "godmode",
+        "jailbreak",
+        "l1b3rt4s",
+        "llm-safety-testing",
+        "parseltongue",
+        "prompt-engineering",
+        "red-teaming",
+        "safety-bypass",
+        "uncensoring"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "Read the live Hermes desktop DOM/CSS over CDP.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill inspecting-hermes-desktop-dom -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill inspecting-hermes-desktop-dom -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "inspecting-hermes-desktop-dom",
+      "path": "skills/agents/inspecting-hermes-desktop-dom",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/software-development/inspecting-hermes-desktop-dom",
+        "path": "optional-skills/software-development/inspecting-hermes-desktop-dom",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "cdp",
+        "desktop",
+        "dom",
+        "electron",
+        "hermes",
+        "self-inspection",
+        "ui-verification"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "Iterative Python via live Jupyter kernel (hamelnb).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill jupyter-live-kernel -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill jupyter-live-kernel -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "jupyter-live-kernel",
+      "path": "skills/agents/jupyter-live-kernel",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/data-science/jupyter-live-kernel",
+        "type": "local"
+      },
+      "tags": [
+        "data-science",
+        "exploration",
+        "iterative",
+        "jupyter",
+        "kernel",
+        "notebook",
+        "python",
+        "repl"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "Drive the macOS desktop in the background — screenshots, mouse, keyboard, scroll, drag — without stealing the user's cursor, keyboard focus, or Space. Works with any tool-capable model. Load this skill whenever the `computer_use` tool is available.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill macos-computer-use -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill macos-computer-use -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "macos-computer-use",
+      "path": "skills/agents/macos-computer-use",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/apple/macos-computer-use",
+        "type": "local"
+      },
+      "tags": [
+        "automation",
+        "computer-use",
+        "desktop",
+        "gui",
+        "macos",
+        "screenshots"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "Host modded Minecraft servers (CurseForge, Modrinth).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill minecraft-modpack-server -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill minecraft-modpack-server -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "minecraft-modpack-server",
+      "path": "skills/agents/minecraft-modpack-server",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/gaming/minecraft-modpack-server",
+        "path": "optional-skills/gaming/minecraft-modpack-server",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "gaming",
+        "minecraft",
+        "modpack",
+        "server"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "MCP client: connect servers, register tools (stdio/HTTP).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill native-mcp -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill native-mcp -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "native-mcp",
+      "path": "skills/agents/native-mcp",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/mcp/native-mcp",
+        "type": "local"
+      },
+      "tags": [
+        "http",
+        "integrations",
+        "mcp",
+        "servers",
+        "stdio",
+        "tools"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "Delegate coding to OpenCode CLI (features, PR review).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill opencode -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill opencode -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "opencode",
+      "path": "skills/agents/opencode",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/autonomous-ai-agents/opencode",
+        "path": "optional-skills/autonomous-ai-agents/opencode",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "autonomous",
+        "code-review",
+        "coding-agent",
+        "delegation",
+        "opencode",
+        "refactoring"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "Control Philips Hue lights, scenes, rooms via OpenHue CLI.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill openhue -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill openhue -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "openhue",
+      "path": "skills/agents/openhue",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/smart-home/openhue",
+        "path": "optional-skills/smart-home/openhue",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "automation",
+        "hue",
+        "iot",
+        "lights",
+        "philips-hue",
+        "smart-home"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "Play Pokemon via headless emulator + RAM reads.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill pokemon-player -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill pokemon-player -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "pokemon-player",
+      "path": "skills/agents/pokemon-player",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/gaming/pokemon-player",
+        "path": "optional-skills/gaming/pokemon-player",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "emulator",
+        "gaming",
+        "pokemon"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "agents",
+      "category_label": "Agent runtimes, MCP, computer use, automation of other software",
+      "compatibility": "",
+      "description": "Yuanbao (元宝) groups: @mention users, query info/members.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill yuanbao -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill yuanbao -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "yuanbao",
+      "path": "skills/agents/yuanbao",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/yuanbao",
+        "type": "local"
+      },
+      "tags": [
+        "at",
+        "chat",
+        "group",
+        "groups",
+        "members",
+        "mention",
+        "tencent",
+        "yuanbao",
+        "元宝",
+        "派",
+        "艾特"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "creative",
+      "category_label": "Art, music, image and audio generation, visual experiments",
+      "compatibility": "",
+      "description": "ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill ascii-art -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill ascii-art -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "ascii-art",
+      "path": "skills/creative/ascii-art",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/creative/ascii-art",
+        "path": "optional-skills/creative/ascii-art",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "art",
+        "ascii",
+        "banners",
+        "boxes",
+        "cowsay",
+        "creative",
+        "figlet",
+        "pyfiglet",
+        "terminal",
+        "text-art",
+        "unicode"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "creative",
+      "category_label": "Art, music, image and audio generation, visual experiments",
+      "compatibility": "",
+      "description": "Knowledge comics (知识漫画): educational, biography, tutorial.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill baoyu-comic -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill baoyu-comic -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "baoyu-comic",
+      "path": "skills/creative/baoyu-comic",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/creative/baoyu-comic",
+        "path": "optional-skills/creative/baoyu-comic",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "chinese",
+        "comic",
+        "creative",
+        "educational",
+        "illustration",
+        "image-generation",
+        "knowledge-comic"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "creative",
+      "category_label": "Art, music, image and audio generation, visual experiments",
+      "compatibility": "Requires ComfyUI (local, Comfy Desktop, or Comfy Cloud) and comfy-cli (auto-installed via pipx/uvx by the setup script).",
+      "description": "Generate images, video, and audio with ComfyUI — install, launch, manage nodes/models, run workflows with parameter injection. Uses the official comfy-cli for lifecycle and direct REST/WebSocket API for execution.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill comfyui -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill comfyui -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "comfyui",
+      "path": "skills/creative/comfyui",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/creative/comfyui",
+        "path": "optional-skills/creative/comfyui",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "comfyui",
+        "creative",
+        "flux",
+        "generative-ai",
+        "hunyuan-video",
+        "image-generation",
+        "sd3",
+        "stable-diffusion",
+        "video-generation",
+        "wan-video",
+        "workflows"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "creative",
+      "category_label": "Art, music, image and audio generation, visual experiments",
+      "compatibility": "",
+      "description": "Search/download GIFs from Tenor via curl + jq.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill gif-search -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill gif-search -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "gif-search",
+      "path": "skills/creative/gif-search",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/media/gif-search",
+        "path": "optional-skills/media/gif-search",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "api",
+        "gif",
+        "images",
+        "media",
+        "search",
+        "tenor"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "creative",
+      "category_label": "Art, music, image and audio generation, visual experiments",
+      "compatibility": "",
+      "description": "HeartMuLa: Suno-like song generation from lyrics + tags.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill heartmula -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill heartmula -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "heartmula",
+      "path": "skills/creative/heartmula",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/media/heartmula",
+        "path": "optional-skills/creative/heartmula",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "ai",
+        "audio",
+        "generation",
+        "heartcodec",
+        "heartmula",
+        "lyrics",
+        "music",
+        "music-generation",
+        "song",
+        "songs",
+        "suno"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "creative-ideation"
+      ],
+      "category": "creative",
+      "category_label": "Art, music, image and audio generation, visual experiments",
+      "compatibility": "",
+      "description": "Generate project ideas via creative constraints.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill ideation -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill ideation -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "ideation",
+      "path": "skills/creative/ideation",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/creative/creative-ideation",
+        "path": "optional-skills/creative/creative-ideation",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "brainstorm",
+        "brainstorming",
+        "constraints",
+        "creative",
+        "creativity",
+        "ideas",
+        "ideation",
+        "inspiration",
+        "projects"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "creative",
+      "category_label": "Art, music, image and audio generation, visual experiments",
+      "compatibility": "",
+      "description": "Pixel art w/ era palettes (NES, Game Boy, PICO-8).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill pixel-art -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill pixel-art -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "pixel-art",
+      "path": "skills/creative/pixel-art",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/creative/pixel-art",
+        "path": "optional-skills/creative/pixel-art",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "arcade",
+        "creative",
+        "gameboy",
+        "image",
+        "nes",
+        "palettes",
+        "pixel-art",
+        "retro",
+        "snes",
+        "sprites",
+        "video"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "creative",
+      "category_label": "Art, music, image and audio generation, visual experiments",
+      "compatibility": "",
+      "description": "Use when building creative browser demos with @chenglou/pretext — DOM-free text layout for ASCII art, typographic flow around obstacles, text-as-geometry games, kinetic typography, and text-powered generative art. Produces single-file HTML demos by default.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill pretext -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill pretext -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "pretext",
+      "path": "skills/creative/pretext",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/creative/pretext",
+        "path": "optional-skills/creative/pretext",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "ascii-art",
+        "canvas",
+        "creative-coding",
+        "demo",
+        "generative",
+        "kinetic-typography",
+        "pretext",
+        "text-layout",
+        "typography"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "creative",
+      "category_label": "Art, music, image and audio generation, visual experiments",
+      "compatibility": "",
+      "description": "Throwaway HTML mockups: 2-3 design variants to compare.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill sketch -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill sketch -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "sketch",
+      "path": "skills/creative/sketch",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/creative/sketch",
+        "path": "optional-skills/creative/sketch",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "comparison",
+        "design",
+        "exploration",
+        "html",
+        "mockup",
+        "prototype",
+        "sketch",
+        "ui",
+        "variants",
+        "wireframe"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "creative",
+      "category_label": "Art, music, image and audio generation, visual experiments",
+      "compatibility": "",
+      "description": "Audio spectrograms/features (mel, chroma, MFCC) via CLI.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill songsee -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill songsee -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "songsee",
+      "path": "skills/creative/songsee",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/media/songsee",
+        "path": "optional-skills/media/songsee",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "analysis",
+        "audio",
+        "audio-analysis",
+        "mfcc",
+        "music",
+        "spectrogram",
+        "visualization"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "creative",
+      "category_label": "Art, music, image and audio generation, visual experiments",
+      "compatibility": "",
+      "description": "Spotify: play, search, queue, manage playlists and devices.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill spotify -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill spotify -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "spotify",
+      "path": "skills/creative/spotify",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/media/spotify",
+        "type": "local"
+      },
+      "tags": [
+        "media",
+        "music",
+        "playback",
+        "playlists",
+        "spotify"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "creative",
+      "category_label": "Art, music, image and audio generation, visual experiments",
+      "compatibility": "",
+      "description": "Control a running TouchDesigner instance via twozero MCP — create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 native tools.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill touchdesigner-mcp -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill touchdesigner-mcp -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "touchdesigner-mcp",
+      "path": "skills/creative/touchdesigner-mcp",
+      "source": {
+        "author": "kshitijk4poor",
+        "note": "Third-party skill authored by kshitijk4poor; installed via Hermes skills hub.",
+        "origin": "~/.hermes/skills/creative/touchdesigner-mcp",
+        "type": "third-party"
+      },
+      "tags": [
+        "audio-reactive",
+        "creative-coding",
+        "generative",
+        "generative-art",
+        "glsl",
+        "installation",
+        "mcp",
+        "real-time-visuals",
+        "touchdesigner",
+        "twozero",
+        "visuals",
+        "vj"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Author/validate/export Google's DESIGN.md token spec files.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill design-md -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill design-md -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "design-md",
+      "path": "skills/design/design-md",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/creative/design-md",
+        "path": "optional-skills/creative/design-md",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "DESIGN.md",
+        "accessibility",
+        "design",
+        "design-system",
+        "design-tokens",
+        "dtcg",
+        "google",
+        "stitch",
+        "tailwind",
+        "tokens",
+        "ui",
+        "wcag"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "taste-skill",
+        "tasteskill"
+      ],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "tasteskill v2, the anti-slop frontend skill. Art direction for websites, distilled from a study of 247 curated gallery sites (One Page Love, Awwwards Sites of the Day). Deals researched directions (idea, composition, type, palette, photographs, section blueprints) from a library, enforces a strict n",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill design-taste-frontend -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill design-taste-frontend -y",
+        "upstream": "npx -y skills add Leonxlnx/taste-skill --skill design-taste-frontend -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "design-taste-frontend",
+      "path": "skills/design/design-taste-frontend",
+      "source": {
+        "commit": "12af471f627f866411b4bd785b19646d3672784c",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/taste-skill",
+        "path": "skills/taste-skill",
+        "repo": "Leonxlnx/taste-skill",
+        "type": "github",
+        "url": "https://github.com/Leonxlnx/taste-skill/tree/12af471f627f866411b4bd785b19646d3672784c/skills/taste-skill"
+      },
+      "tags": [
+        "anti-slop",
+        "art-direction",
+        "design",
+        "frontend",
+        "landing-page",
+        "layout",
+        "typography",
+        "ui",
+        "website"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "anthropic-frontend-design-skill"
+      ],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill frontend-design -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill frontend-design -y",
+        "upstream": "npx -y skills add anthropics/skills --skill frontend-design -y"
+      },
+      "kind": "skill",
+      "license": "Complete terms in LICENSE.txt",
+      "name": "frontend-design",
+      "path": "skills/design/frontend-design",
+      "source": {
+        "commit": "ca45fc496a3436251f191354091d557da31c15b5",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/anthropic-frontend-design-skill",
+        "path": "skills/frontend-design",
+        "repo": "anthropics/skills",
+        "type": "github",
+        "url": "https://github.com/anthropics/skills/tree/ca45fc496a3436251f191354091d557da31c15b5/skills/frontend-design"
+      },
+      "tags": [
+        "aesthetics",
+        "anthropic",
+        "design",
+        "frontend",
+        "ui",
+        "visual-design"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-gene",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill frontend-ui-engineering -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill frontend-ui-engineering -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "frontend-ui-engineering",
+      "path": "skills/design/frontend-ui-engineering",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/frontend-ui-engineering",
+        "path": "skills/frontend-ui-engineering",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "accessibility",
+        "components",
+        "react",
+        "responsive",
+        "state",
+        "wcag"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Design skill for websites and new pages that look designed, not generated. Use when the user asks to build or design something new, or names Hallmark. Never use it on an existing design unless the user names Hallmark, as in `/hallmark redesign <path>`.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill hallmark -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill hallmark -y",
+        "upstream": "npx -y skills add Nutlope/hallmark --skill hallmark -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "hallmark",
+      "path": "skills/design/hallmark",
+      "source": {
+        "commit": "4f6a46c6dc325d40ab268c93e25c7b96676ebccd",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/hallmark",
+        "path": "skills/hallmark",
+        "repo": "Nutlope/hallmark",
+        "type": "github",
+        "url": "https://github.com/Nutlope/hallmark/tree/4f6a46c6dc325d40ab268c93e25c7b96676ebccd/skills/hallmark"
+      },
+      "tags": [
+        "anti-slop",
+        "audit",
+        "design",
+        "frontend",
+        "handcrafted",
+        "landing-page",
+        "redesign",
+        "ui"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "huashu",
+        "花叔design"
+      ],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "花叔Design——用HTML做高保真原型、幻灯片、动画、可视化与专家评审。任何新设计100%先出三个方向初稿给用户选（指定风格/品牌也不豁免），选定后才执行。触发词：做原型、PPT、幻灯片、动画、设计风格、评审、做个HTML页面、UI mockup、导出MP4/GIF、做个好看的。生产级Web App/需后端的系统不适用。",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill huashu-design -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill huashu-design -y",
+        "upstream": "npx -y skills add alchaincyf/huashu-design --skill huashu-design -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "huashu-design",
+      "path": "skills/design/huashu-design",
+      "source": {
+        "commit": "9b01ee8751679724dd43d855a532944aaa2c2b59",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/huashu-design (valid local copy, replaced by upstream)",
+        "path": "",
+        "repo": "alchaincyf/huashu-design",
+        "type": "github",
+        "url": "https://github.com/alchaincyf/huashu-design/tree/9b01ee8751679724dd43d855a532944aaa2c2b59"
+      },
+      "tags": [
+        "animation",
+        "chinese",
+        "design",
+        "frontend",
+        "html",
+        "mockup",
+        "pptx",
+        "prototype",
+        "slides",
+        "ui"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites, landing pages, dashboards, product UI, components, forms, settings, onboarding, empty states, and native iOS or Android screens. Handles UX rev",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill impeccable -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill impeccable -y",
+        "upstream": "npx -y skills add pbakaus/impeccable --skill impeccable -y"
+      },
+      "kind": "skill",
+      "license": "Apache-2.0",
+      "name": "impeccable",
+      "path": "skills/design/impeccable",
+      "source": {
+        "commit": "9fadc41729c38fd47d7ae622b501558653f9d2e9",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/impeccable",
+        "path": ".agents/skills/impeccable",
+        "repo": "pbakaus/impeccable",
+        "type": "github",
+        "url": "https://github.com/pbakaus/impeccable/tree/9fadc41729c38fd47d7ae622b501558653f9d2e9/.agents/skills/impeccable"
+      },
+      "tags": [
+        "anti-slop",
+        "css",
+        "design",
+        "design-review",
+        "frontend",
+        "landing-page",
+        "typography",
+        "ui",
+        "ui-polish"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Design engineering principles for making interfaces feel polished. Use when building UI components, reviewing frontend code, implementing animations, hover states, shadows, borders, typography, icons, micro-interactions, enter/exit animations, or any visual detail work. Supports quick and full revie",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill make-interfaces-feel-better -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill make-interfaces-feel-better -y",
+        "upstream": "npx -y skills add jakubkrehel/make-interfaces-feel-better --skill make-interfaces-feel-better -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "make-interfaces-feel-better",
+      "path": "skills/design/make-interfaces-feel-better",
+      "source": {
+        "commit": "35545ea1512ad59fa463e6b1f95ca9c052981fe6",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/make-interfaces-feel-better",
+        "path": "skills/make-interfaces-feel-better",
+        "repo": "jakubkrehel/make-interfaces-feel-better",
+        "type": "github",
+        "url": "https://github.com/jakubkrehel/make-interfaces-feel-better/tree/35545ea1512ad59fa463e6b1f95ca9c052981fe6/skills/make-interfaces-feel-better"
+      },
+      "tags": [
+        "animation",
+        "design",
+        "frontend",
+        "hover",
+        "micro-interactions",
+        "polish",
+        "shadows",
+        "typography",
+        "ui"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "material-design-3",
+        "material-design-3-skill"
+      ],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Implement Google's Material Design 3 (Material You) UI system. Primary: Jetpack Compose Material3 (MaterialTheme, components, adaptive layout). Also Flutter and limited web (@material/web, maintenance mode). Covers tokens, 30+ components, layout, theming, M3 Expressive (platform matrix), and accessi",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill material-3 -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill material-3 -y",
+        "upstream": "npx -y skills add hamen/material-3-skill --skill material-3 -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "material-3",
+      "path": "skills/design/material-3",
+      "source": {
+        "commit": "14385f2bf3804d8779f8b4db2604211f1e70b4c1",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/material-design-3-skill",
+        "path": "skills/material-3",
+        "repo": "hamen/material-3-skill",
+        "type": "github",
+        "url": "https://github.com/hamen/material-3-skill/tree/14385f2bf3804d8779f8b4db2604211f1e70b4c1/skills/material-3"
+      },
+      "tags": [
+        "android",
+        "components",
+        "design",
+        "design-tokens",
+        "frontend",
+        "material-design",
+        "theming",
+        "ui"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Ship Next.js App Router apps end-to-end.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill nextjs-app-router-production -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill nextjs-app-router-production -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "nextjs-app-router-production",
+      "path": "skills/design/nextjs-app-router-production",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/frontend-ui-engineering/nextjs-app-router-production",
+        "type": "local"
+      },
+      "tags": [
+        "app-router",
+        "build",
+        "cors",
+        "deploy",
+        "nextjs",
+        "production",
+        "react",
+        "server-components"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "nothing-design-skill"
+      ],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "This skill should be used when the user explicitly says \"Nothing style\", \"Nothing design\", \"/nothing-design\", or directly asks to use/apply the Nothing design system. NEVER trigger automatically for generic UI or design tasks.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill nothing-design -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill nothing-design -y",
+        "upstream": "npx -y skills add dominikmartn/nothing-design-skill --skill nothing-design -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "nothing-design",
+      "path": "skills/design/nothing-design",
+      "source": {
+        "commit": "74affbb786af098b18503467b205c10a7df30126",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/nothing-design-skill",
+        "path": "nothing-design",
+        "repo": "dominikmartn/nothing-design-skill",
+        "type": "github",
+        "url": "https://github.com/dominikmartn/nothing-design-skill/tree/74affbb786af098b18503467b205c10a7df30126/nothing-design"
+      },
+      "tags": [
+        "brand-style",
+        "design",
+        "frontend",
+        "industrial",
+        "monochrome",
+        "typography",
+        "ui"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Design and improve user interfaces using the concrete rules from Refactoring UI (Wathan & Schoger) — constrained spacing/type/color/shadow scales, visual hierarchy through weight and color rather than size, and depth through emulated light. Use when building or styling any UI (web, app, dashboard, l",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill refactoring-ui -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill refactoring-ui -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "refactoring-ui",
+      "path": "skills/design/refactoring-ui",
+      "source": {
+        "note": "Upstream author unknown; content derived from Refactoring UI (Wathan & Schoger).",
+        "origin": "~/.claude/skills/refactoring-ui-skill",
+        "type": "local"
+      },
+      "tags": [
+        "color-palette",
+        "design-tokens",
+        "spacing",
+        "ui-polish",
+        "visual-hierarchy"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "scandinavian-design-skill"
+      ],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Apply a refined Scandinavian visual system with a neutral black-and-white foundation, restrained sans-serif typography, purposeful product imagery, generous spacing, clear page chapters, and minimal decoration. Use when the user invokes /scandinavian-design or requests a Nordic, monochrome, calm, sp",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill scandinavian-design -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill scandinavian-design -y",
+        "upstream": "npx -y skills add ericzakariasson/scandinavian-design --skill scandinavian-design -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "scandinavian-design",
+      "path": "skills/design/scandinavian-design",
+      "source": {
+        "commit": "295742307b97fa0fb848f9be2d6e229ca517c736",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/scandinavian-design-skill",
+        "path": "skills/scandinavian-design",
+        "repo": "ericzakariasson/scandinavian-design",
+        "type": "github",
+        "url": "https://github.com/ericzakariasson/scandinavian-design/tree/295742307b97fa0fb848f9be2d6e229ca517c736/skills/scandinavian-design"
+      },
+      "tags": [
+        "brand-style",
+        "design",
+        "frontend",
+        "minimalism",
+        "monochrome",
+        "nordic",
+        "restyle",
+        "ui"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Manages shadcn components and projects — adding, searching, fixing, debugging, styling, and composing UI, including chat interfaces. Provides project context, component docs, and usage examples. Applies when working with shadcn/ui, component registries, presets, --preset codes, or any project with a",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill shadcn -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill shadcn -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "shadcn",
+      "path": "skills/design/shadcn",
+      "source": {
+        "installed_via": "hermes skills install (skills.sh) / npx skills add shadcn/ui",
+        "origin": "~/.hermes/skills/shadcn",
+        "repo": "shadcn-ui/ui",
+        "type": "github",
+        "url": "https://github.com/shadcn-ui/ui"
+      },
+      "tags": [
+        "components",
+        "react",
+        "shadcn",
+        "tailwind",
+        "ui-library"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Add or upgrade Storybook for React+Vite apps.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill storybook-component-library -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill storybook-component-library -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "storybook-component-library",
+      "path": "skills/design/storybook-component-library",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/frontend-ui-engineering/storybook-component-library",
+        "type": "local"
+      },
+      "tags": [
+        "component-library",
+        "components",
+        "design-system",
+        "react",
+        "storybook",
+        "vite"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "swiss-design-skill",
+        "swiss-design-system"
+      ],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Apply a Swiss International Style design system using Tailwind CSS. Use when asked to style a webpage, clean up a UI, apply a design system, make something look great, or when the user references Swiss design, grotesque fonts, Helvetica, grid systems, modernist typography, or 1960s/1950s design aest",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill swiss-design -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill swiss-design -y",
+        "upstream": "npx -y skills add zeke/swiss-design-skill --skill swiss-design -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "swiss-design",
+      "path": "skills/design/swiss-design",
+      "source": {
+        "commit": "285009f3dc4ba311f59bb757973274de2c9446c3",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/swiss-design-system",
+        "path": "swiss-design",
+        "repo": "zeke/swiss-design-skill",
+        "type": "github",
+        "url": "https://github.com/zeke/swiss-design-skill/tree/285009f3dc4ba311f59bb757973274de2c9446c3/swiss-design"
+      },
+      "tags": [
+        "brand-style",
+        "design",
+        "frontend",
+        "grid",
+        "swiss-style",
+        "tailwind",
+        "typography",
+        "ui"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Tailwind CSS 4 patterns and best practices. Trigger: When styling with Tailwind (className, variants, cn()), especially when dynamic styling or CSS variables are involved (no var() in className).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill tailwind-4 -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill tailwind-4 -y"
+      },
+      "kind": "skill",
+      "license": "Apache-2.0",
+      "name": "tailwind-4",
+      "path": "skills/design/tailwind-4",
+      "source": {
+        "installed_via": "hermes skills install (skills.sh)",
+        "origin": "~/.hermes/skills/tailwind-4",
+        "repo": "prowler-cloud/prowler",
+        "type": "github",
+        "url": "https://github.com/prowler-cloud/prowler"
+      },
+      "tags": [
+        "css",
+        "styling",
+        "tailwind",
+        "utility-classes"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "ui-ux-pro-max-skill"
+      ],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "UI/UX design intelligence for web, mobile, and desktop. This skill should be used when designing, building, reviewing, or fixing interfaces, including pages, components, design systems, accessibility, interaction, responsive layout, typography, color, charts, and stack-specific UI implementation. Se",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill ui-ux-pro-max -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill ui-ux-pro-max -y",
+        "upstream": "npx -y skills add nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "ui-ux-pro-max",
+      "path": "skills/design/ui-ux-pro-max",
+      "source": {
+        "commit": "713eef51b04efc98d6fa565323b495f7c9c89fd4",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/ui-ux-pro-max-skill",
+        "path": ".claude/skills/ui-ux-pro-max",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "type": "github",
+        "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/tree/713eef51b04efc98d6fa565323b495f7c9c89fd4/.claude/skills/ui-ux-pro-max"
+      },
+      "tags": [
+        "color",
+        "components",
+        "design",
+        "design-system",
+        "frontend",
+        "landing-page",
+        "typography",
+        "ui",
+        "ux"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "deslop",
+        "unslop-skill"
+      ],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Cut AI tells from any writing.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill unslop -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill unslop -y",
+        "upstream": "npx -y skills add cursor/plugins --skill unslop -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "unslop",
+      "path": "skills/design/unslop",
+      "source": {
+        "commit": "ae5650febf4320793844c12c4adaa937f417f8da",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/unslop-skill",
+        "path": "pstack/skills/unslop",
+        "repo": "cursor/plugins",
+        "type": "github",
+        "url": "https://github.com/cursor/plugins/tree/ae5650febf4320793844c12c4adaa937f417f8da/pstack/skills/unslop"
+      },
+      "tags": [
+        "ai-slop",
+        "anti-slop",
+        "cleanup",
+        "copy",
+        "design",
+        "frontend",
+        "ui",
+        "writing"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "userinterface.wiki",
+        "userinterfacewiki-skill"
+      ],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "UI/UX best practices for web interfaces. Use when reviewing animations, CSS, audio, typography, UX patterns, prefetching, or icon implementations. Covers 11 categories from animation principles to typography. Outputs file:line findings.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill userinterface-wiki -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill userinterface-wiki -y",
+        "upstream": "npx -y skills add raphaelsalaja/userinterface-wiki --skill userinterface-wiki -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "userinterface-wiki",
+      "path": "skills/design/userinterface-wiki",
+      "source": {
+        "commit": "256a954080c8bcf1b1ceb1e2a4079d1f24cf593a",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/userinterfacewiki-skill",
+        "path": "skills",
+        "repo": "raphaelsalaja/userinterface-wiki",
+        "type": "github",
+        "url": "https://github.com/raphaelsalaja/userinterface-wiki/tree/256a954080c8bcf1b1ceb1e2a4079d1f24cf593a/skills"
+      },
+      "tags": [
+        "accessibility",
+        "color",
+        "design",
+        "frontend",
+        "layout",
+        "reference",
+        "typography",
+        "ui",
+        "ui-rules"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "web-design-guidelines-skill",
+        "web-interface-guidelines",
+        "wig"
+      ],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill web-design-guidelines -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill web-design-guidelines -y",
+        "upstream": "npx -y skills add vercel-labs/agent-skills --skill web-design-guidelines -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "web-design-guidelines",
+      "path": "skills/design/web-design-guidelines",
+      "source": {
+        "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+        "installed_via": "re-fetched from upstream (local copy was a saved HTML page, not a skill)",
+        "origin": "~/.claude/skills/web-design-guidelines-skill",
+        "path": "skills/web-design-guidelines",
+        "repo": "vercel-labs/agent-skills",
+        "type": "github",
+        "url": "https://github.com/vercel-labs/agent-skills/tree/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62/skills/web-design-guidelines"
+      },
+      "tags": [
+        "accessibility",
+        "design",
+        "forms",
+        "frontend",
+        "review",
+        "ui",
+        "ux",
+        "vercel",
+        "web-interface-guidelines"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "Strategic web design consultant for building, reviewing, or auditing websites and landing pages. Trigger when the user asks to build a landing page, review a site's messaging, write hero copy or CTAs, audit for \"AI slop,\" or plan page information architecture. Also trigger on keywords: \"landing page",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill yc-web-design-strategy -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill yc-web-design-strategy -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "yc-web-design-strategy",
+      "path": "skills/design/yc-web-design-strategy",
+      "source": {
+        "note": "Upstream author unknown.",
+        "origin": "~/.claude/skills/yc-web-design-strategy-skill",
+        "type": "local"
+      },
+      "tags": [
+        "ai-slop",
+        "conversion",
+        "copywriting",
+        "cta",
+        "hero",
+        "landing-page",
+        "messaging",
+        "startup",
+        "website"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "devops",
+      "category_label": "CI, infrastructure, databases, observability, environment setup",
+      "compatibility": "",
+      "description": "Make red CI green on an existing repo without a huge PR.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill ci-pipeline-remediation -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill ci-pipeline-remediation -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "ci-pipeline-remediation",
+      "path": "skills/devops/ci-pipeline-remediation",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/devops/ci-pipeline-remediation",
+        "type": "local"
+      },
+      "tags": [
+        "biome",
+        "ci",
+        "fix-ci",
+        "github-actions",
+        "linting",
+        "pipeline",
+        "redocly"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "devops",
+      "category_label": "CI, infrastructure, databases, observability, environment setup",
+      "compatibility": "",
+      "description": "Decomposition playbook + anti-temptation rules for an orchestrator profile routing work through Kanban. The \"don't do the work yourself\" rule and the basic lifecycle are auto-injected into every kanban worker's system prompt; this skill is the deeper playbook when you're specifically playing the orc",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill kanban-orchestrator -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill kanban-orchestrator -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "kanban-orchestrator",
+      "path": "skills/devops/kanban-orchestrator",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/devops/kanban-orchestrator",
+        "type": "local"
+      },
+      "tags": [
+        "kanban",
+        "multi-agent",
+        "orchestration",
+        "routing",
+        "tasks"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "devops",
+      "category_label": "CI, infrastructure, databases, observability, environment setup",
+      "compatibility": "",
+      "description": "Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker's system prompt as KANBAN_GUIDANCE (from agent/prompt_builder.py); this skill is what you load when you want deeper detail on specific scenarios.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill kanban-worker -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill kanban-worker -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "kanban-worker",
+      "path": "skills/devops/kanban-worker",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/devops/kanban-worker",
+        "type": "local"
+      },
+      "tags": [
+        "collaboration",
+        "kanban",
+        "multi-agent",
+        "pitfalls",
+        "tasks",
+        "worker",
+        "workflow"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "devops",
+      "category_label": "CI, infrastructure, databases, observability, environment setup",
+      "compatibility": "",
+      "description": "Postgres RLS: policies, ownership bypass, migrations.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill postgres-row-level-security -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill postgres-row-level-security -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "postgres-row-level-security",
+      "path": "skills/devops/postgres-row-level-security",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/devops/postgres-row-level-security",
+        "type": "local"
+      },
+      "tags": [
+        "database",
+        "migrations",
+        "multi-tenant",
+        "postgres",
+        "rls",
+        "security"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "devops",
+      "category_label": "CI, infrastructure, databases, observability, environment setup",
+      "compatibility": "",
+      "description": "Boot Grafana+Tempo+Loki+Prom+Pyroscope+otelcol natively.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill self-hosted-grafana-stack -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill self-hosted-grafana-stack -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "self-hosted-grafana-stack",
+      "path": "skills/devops/self-hosted-grafana-stack",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/devops/self-hosted-grafana-stack",
+        "type": "local"
+      },
+      "tags": [
+        "grafana",
+        "loki",
+        "monitoring",
+        "prometheus",
+        "self-hosted"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "devops",
+      "category_label": "CI, infrastructure, databases, observability, environment setup",
+      "compatibility": "",
+      "description": "Access local services via Tailscale MagicDNS",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill tailscale-service-access -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill tailscale-service-access -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "tailscale-service-access",
+      "path": "skills/devops/tailscale-service-access",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/devops/tailscale-service-access",
+        "type": "local"
+      },
+      "tags": [
+        "networking",
+        "remote-access",
+        "tailscale",
+        "vpn"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "devops",
+      "category_label": "CI, infrastructure, databases, observability, environment setup",
+      "compatibility": "",
+      "description": "Comprehensive setup for technical work environments including shell configuration, knowledge vault organization, and structured learning systems with automated task delivery.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill technical-environment-setup -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill technical-environment-setup -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "technical-environment-setup",
+      "path": "skills/devops/technical-environment-setup",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/productivity/technical-environment-setup",
+        "type": "local"
+      },
+      "tags": [
+        "dev-machine",
+        "dotfiles",
+        "environment",
+        "setup",
+        "tooling"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "devops",
+      "category_label": "CI, infrastructure, databases, observability, environment setup",
+      "compatibility": "",
+      "description": "Webhook subscriptions: event-driven agent runs.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill webhook-subscriptions -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill webhook-subscriptions -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "webhook-subscriptions",
+      "path": "skills/devops/webhook-subscriptions",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/devops/webhook-subscriptions",
+        "type": "local"
+      },
+      "tags": [
+        "api",
+        "automation",
+        "events",
+        "integrations",
+        "notifications",
+        "push",
+        "subscriptions",
+        "webhook",
+        "webhooks"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill api-and-interface-design -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill api-and-interface-design -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "api-and-interface-design",
+      "path": "skills/engineering/api-and-interface-design",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/api-and-interface-design",
+        "path": "skills/api-and-interface-design",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "api",
+        "contracts",
+        "graphql",
+        "interfaces",
+        "rest"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Go async 202 job APIs + SSE progress streams.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill async-jobs-and-sse-go -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill async-jobs-and-sse-go -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "async-jobs-and-sse-go",
+      "path": "skills/engineering/async-jobs-and-sse-go",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/software-development/async-jobs-and-sse-go",
+        "type": "local"
+      },
+      "tags": [
+        "background-jobs",
+        "go",
+        "golang",
+        "sse",
+        "streaming"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MC",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill browser-testing-with-devtools -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill browser-testing-with-devtools -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "browser-testing-with-devtools",
+      "path": "skills/engineering/browser-testing-with-devtools",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/browser-testing-with-devtools",
+        "path": "skills/browser-testing-with-devtools",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "browser",
+        "chrome-devtools",
+        "console",
+        "e2e",
+        "network"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "ci",
+        "cicd",
+        "github-actions"
+      ],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill ci-cd-and-automation -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill ci-cd-and-automation -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "ci-cd-and-automation",
+      "path": "skills/engineering/ci-cd-and-automation",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/ci-cd-and-automation",
+        "path": "skills/ci-cd-and-automation",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "cd",
+        "ci",
+        "deploy",
+        "github-actions",
+        "pipeline"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "code-review",
+        "pr-review"
+      ],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill code-review-and-quality -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill code-review-and-quality -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "code-review-and-quality",
+      "path": "skills/engineering/code-review-and-quality",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/code-review-and-quality",
+        "path": "skills/code-review-and-quality",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "code-review",
+        "pull-request",
+        "quality",
+        "review-checklist"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill code-simplification -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill code-simplification -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "code-simplification",
+      "path": "skills/engineering/code-simplification",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/code-simplification",
+        "path": "skills/code-simplification",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "cleanup",
+        "readability",
+        "refactor",
+        "simplify"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Establishes a project's quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane default thresholds when they have no number in mind, records everything in CONSTRAINTS.md, and watches the diff for a weakened bar — new @ts-i",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill constraint-driven-development -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill constraint-driven-development -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "constraint-driven-development",
+      "path": "skills/engineering/constraint-driven-development",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/constraint-driven-development",
+        "path": "skills/constraint-driven-development",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "constraints",
+        "coverage",
+        "quality-bar",
+        "thresholds"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill context-engineering -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill context-engineering -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "context-engineering",
+      "path": "skills/engineering/context-engineering",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/context-engineering",
+        "path": "skills/context-engineering",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "agents-md",
+        "claude-md",
+        "context",
+        "rules-files",
+        "session"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why — a systematic approach to finding and fixing the root caus",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill debugging-and-error-recovery -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill debugging-and-error-recovery -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "debugging-and-error-recovery",
+      "path": "skills/engineering/debugging-and-error-recovery",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/debugging-and-error-recovery",
+        "path": "skills/debugging-and-error-recovery",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "broken-build",
+        "debugging",
+        "errors",
+        "failing-tests",
+        "root-cause"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in production, such as renaming or dropping a column without downtime (expand/contract). Use when deciding whether to",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill deprecation-and-migration -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill deprecation-and-migration -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "deprecation-and-migration",
+      "path": "skills/engineering/deprecation-and-migration",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/deprecation-and-migration",
+        "path": "skills/deprecation-and-migration",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "deprecation",
+        "expand-contract",
+        "migration",
+        "schema-migration"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Records decisions and documentation. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill documentation-and-adrs -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill documentation-and-adrs -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "documentation-and-adrs",
+      "path": "skills/engineering/documentation-and-adrs",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/documentation-and-adrs",
+        "path": "skills/documentation-and-adrs",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "adr",
+        "architecture-decision",
+        "docs",
+        "readme"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding, when stress-testing a plan for hidden failure modes, when correctness matters more than speed, when working in unfamiliar code, when stakes",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill doubt-driven-development -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill doubt-driven-development -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "doubt-driven-development",
+      "path": "skills/engineering/doubt-driven-development",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/doubt-driven-development",
+        "path": "skills/doubt-driven-development",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "adversarial-review",
+        "assumptions",
+        "high-stakes"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "git",
+        "semver"
+      ],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, splitting uncommitted work in a messy working tree into clean atomic commits, opening or reviewing a pull request (PR), pushing to a remote, or when you need to organize work acro",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill git-workflow-and-versioning -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill git-workflow-and-versioning -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "git-workflow-and-versioning",
+      "path": "skills/engineering/git-workflow-and-versioning",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/git-workflow-and-versioning",
+        "path": "skills/git-workflow-and-versioning",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "branching",
+        "changelog",
+        "commits",
+        "git",
+        "pull-request",
+        "release",
+        "semver"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Use when adding intra-repo imports in a Go monorepo.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill go-workspace-monorepo -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill go-workspace-monorepo -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "go-workspace-monorepo",
+      "path": "skills/engineering/go-workspace-monorepo",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/software-development/go-workspace-monorepo",
+        "type": "local"
+      },
+      "tags": [
+        "go",
+        "go.work",
+        "golang",
+        "monorepo"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on \"ideate\", \"refine th",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill idea-refine -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill idea-refine -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "idea-refine",
+      "path": "skills/engineering/idea-refine",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/idea-refine",
+        "path": "skills/idea-refine",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "brainstorm",
+        "ideation",
+        "refine",
+        "stress-test"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Delivers changes incrementally in thin, verifiable slices. Use when implementing any feature or change that touches more than one file, or when picking up the next task from a plan. Use when rolling a change out behind a feature flag, when you're about to write a large amount of code at once, or whe",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill incremental-implementation -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill incremental-implementation -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "incremental-implementation",
+      "path": "skills/engineering/incremental-implementation",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/incremental-implementation",
+        "path": "skills/incremental-implementation",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "feature-flag",
+        "incremental",
+        "slices"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified (\"build me X\" without \"for whom\" or \"why now\"), when the user explicitly invo",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill interview-me -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill interview-me -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "interview-me",
+      "path": "skills/engineering/interview-me",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/interview-me",
+        "path": "skills/interview-me",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "clarify",
+        "interview",
+        "requirements",
+        "underspecified"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Debug Node.js via --inspect + Chrome DevTools Protocol CLI.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill node-inspect-debugger -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill node-inspect-debugger -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "node-inspect-debugger",
+      "path": "skills/engineering/node-inspect-debugger",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/software-development/node-inspect-debugger",
+        "path": "optional-skills/software-development/node-inspect-debugger",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "breakpoints",
+        "cdp",
+        "debugger",
+        "debugging",
+        "inspect",
+        "node",
+        "node-inspect",
+        "nodejs",
+        "ui-tui"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the availabl",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill observability-and-instrumentation -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill observability-and-instrumentation -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "observability-and-instrumentation",
+      "path": "skills/engineering/observability-and-instrumentation",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/observability-and-instrumentation",
+        "path": "skills/observability-and-instrumentation",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "alerting",
+        "logging",
+        "metrics",
+        "observability",
+        "tracing"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Edit OpenAPI 3.1 specs; split via $ref; redocly validate.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill openapi-spec-authoring -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill openapi-spec-authoring -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "openapi-spec-authoring",
+      "path": "skills/engineering/openapi-spec-authoring",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/software-development/openapi-spec-authoring",
+        "type": "local"
+      },
+      "tags": [
+        "api-spec",
+        "openapi",
+        "rest",
+        "swagger"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Wire Stripe/Paddle. Adapter, replay-safe webhooks.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill payment-provider-integration -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill payment-provider-integration -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "payment-provider-integration",
+      "path": "skills/engineering/payment-provider-integration",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/payment-provider-integration",
+        "type": "local"
+      },
+      "tags": [
+        "billing",
+        "payments",
+        "stripe",
+        "webhooks"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regressions, when Core Web Vitals or load times need improvement, when N+1 query patterns need fixing, or when profiling reveals bottlenecks.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill performance-optimization -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill performance-optimization -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "performance-optimization",
+      "path": "skills/engineering/performance-optimization",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/performance-optimization",
+        "path": "skills/performance-optimization",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "core-web-vitals",
+        "latency",
+        "n+1",
+        "performance",
+        "profiling"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Plan mode: write markdown plan to .hermes/plans/, no exec.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill plan -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill plan -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "plan",
+      "path": "skills/engineering/plan",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/software-development/plan",
+        "type": "local"
+      },
+      "tags": [
+        "approach",
+        "design-doc",
+        "implementation",
+        "plan-mode",
+        "planning",
+        "plans",
+        "workflow"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill planning-and-task-breakdown -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill planning-and-task-breakdown -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "planning-and-task-breakdown",
+      "path": "skills/engineering/planning-and-task-breakdown",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/planning-and-task-breakdown",
+        "path": "skills/planning-and-task-breakdown",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "breakdown",
+        "estimation",
+        "planning",
+        "tasks"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Debug Python: pdb REPL + debugpy remote (DAP).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill python-debugpy -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill python-debugpy -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "python-debugpy",
+      "path": "skills/engineering/python-debugpy",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/software-development/python-debugpy",
+        "path": "optional-skills/software-development/python-debugpy",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "breakpoints",
+        "dap",
+        "debugger",
+        "debugging",
+        "debugpy",
+        "pdb",
+        "post-mortem",
+        "python"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Rate limit Go HTTP APIs",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill rate-limiting-go -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill rate-limiting-go -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "rate-limiting-go",
+      "path": "skills/engineering/rate-limiting-go",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/rate-limiting-go",
+        "type": "local"
+      },
+      "tags": [
+        "go",
+        "golang",
+        "rate-limit",
+        "throttling"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when handling user input, authentication, data storage, or external integrations, or when checking a login flow is safe against the OWASP Top Ten. Use when building any feature that accepts untrusted data,",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill security-and-hardening -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill security-and-hardening -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "security-and-hardening",
+      "path": "skills/engineering/security-and-hardening",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/security-and-hardening",
+        "path": "skills/security-and-hardening",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "auth",
+        "dependencies",
+        "gdpr",
+        "input-validation",
+        "owasp",
+        "security"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Prepares production launches. Use when preparing to deploy to production, or when asking what needs to be in place before shipping. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill shipping-and-launch -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill shipping-and-launch -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "shipping-and-launch",
+      "path": "skills/engineering/shipping-and-launch",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/shipping-and-launch",
+        "path": "skills/shipping-and-launch",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "checklist",
+        "deploy",
+        "launch",
+        "rollback",
+        "rollout"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill source-driven-development -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill source-driven-development -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "source-driven-development",
+      "path": "skills/engineering/source-driven-development",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/source-driven-development",
+        "path": "skills/source-driven-development",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "citations",
+        "framework",
+        "official-docs"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when drafting a PRD or requirements document with objectives and scope, or when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requ",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill spec-driven-development -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill spec-driven-development -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "spec-driven-development",
+      "path": "skills/engineering/spec-driven-development",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/spec-driven-development",
+        "path": "skills/spec-driven-development",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "capability-map",
+        "prd",
+        "requirements",
+        "spec"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Execute plans via delegate_task subagents (2-stage review).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill subagent-driven-development -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill subagent-driven-development -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "subagent-driven-development",
+      "path": "skills/engineering/subagent-driven-development",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/software-development/subagent-driven-development",
+        "path": "optional-skills/software-development/subagent-driven-development",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "delegation",
+        "implementation",
+        "parallel",
+        "subagent",
+        "subagents",
+        "workflow"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "tdd"
+      ],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill test-driven-development -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill test-driven-development -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "test-driven-development",
+      "path": "skills/engineering/test-driven-development",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/test-driven-development",
+        "path": "skills/test-driven-development",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "bug-fix",
+        "red-green-refactor",
+        "tdd",
+        "testing",
+        "unit-tests"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow applies to the piece of work at hand. This is the meta-skill that governs how all other skills are discovered and invoked.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill using-agent-skills -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill using-agent-skills -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "using-agent-skills",
+      "path": "skills/engineering/using-agent-skills",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/Workspace/openstudio/.agents/skills/using-agent-skills",
+        "path": "skills/using-agent-skills",
+        "repo": "addyosmani/agent-skills",
+        "type": "github",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "tags": [
+        "meta",
+        "skills",
+        "workflow"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "engineering",
+      "category_label": "Software engineering practice: planning, TDD, review, debugging, APIs, shipping",
+      "compatibility": "",
+      "description": "Write implementation plans: bite-sized tasks, paths, code.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill writing-plans -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill writing-plans -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "writing-plans",
+      "path": "skills/engineering/writing-plans",
+      "source": {
+        "author": "Hermes Agent (adapted from obra/superpowers)",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/software-development/writing-plans",
+        "type": "local"
+      },
+      "tags": [
+        "design",
+        "documentation",
+        "implementation",
+        "implementation-plan",
+        "planning",
+        "plans",
+        "tasks",
+        "workflow"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "github",
+      "category_label": "GitHub auth, pull requests, issues, code review and repo management",
+      "compatibility": "",
+      "description": "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill github-auth -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill github-auth -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "github-auth",
+      "path": "skills/github/github-auth",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/github/github-auth",
+        "type": "local"
+      },
+      "tags": [
+        "auth",
+        "authentication",
+        "gh",
+        "gh-cli",
+        "git",
+        "github",
+        "setup",
+        "ssh",
+        "token"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "github",
+      "category_label": "GitHub auth, pull requests, issues, code review and repo management",
+      "compatibility": "",
+      "description": "Review PRs: diffs, inline comments via gh or REST.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill github-code-review -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill github-code-review -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "github-code-review",
+      "path": "skills/github/github-code-review",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/github/github-code-review",
+        "type": "local"
+      },
+      "tags": [
+        "code-review",
+        "gh",
+        "git",
+        "github",
+        "pull-request",
+        "pull-requests",
+        "quality"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "github",
+      "category_label": "GitHub auth, pull requests, issues, code review and repo management",
+      "compatibility": "",
+      "description": "Create, triage, label, assign GitHub issues via gh or REST.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill github-issues -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill github-issues -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "github-issues",
+      "path": "skills/github/github-issues",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/github/github-issues",
+        "type": "local"
+      },
+      "tags": [
+        "bug-tracking",
+        "gh",
+        "github",
+        "issues",
+        "project-management",
+        "triage"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "github",
+      "category_label": "GitHub auth, pull requests, issues, code review and repo management",
+      "compatibility": "",
+      "description": "GitHub PR lifecycle: branch, commit, open, CI, merge.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill github-pr-workflow -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill github-pr-workflow -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "github-pr-workflow",
+      "path": "skills/github/github-pr-workflow",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/github/github-pr-workflow",
+        "type": "local"
+      },
+      "tags": [
+        "automation",
+        "branch",
+        "ci/cd",
+        "gh",
+        "git",
+        "github",
+        "merge",
+        "pull-request",
+        "pull-requests"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "github",
+      "category_label": "GitHub auth, pull requests, issues, code review and repo management",
+      "compatibility": "",
+      "description": "Clone/create/fork repos; manage remotes, releases.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill github-repo-management -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill github-repo-management -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "github-repo-management",
+      "path": "skills/github/github-repo-management",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/github/github-repo-management",
+        "type": "local"
+      },
+      "tags": [
+        "configuration",
+        "gh",
+        "git",
+        "github",
+        "releases",
+        "repositories",
+        "repository",
+        "secrets"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "infra-diagram",
+        "system-diagram"
+      ],
+      "category": "knowledge",
+      "category_label": "Knowledge graphs, diagrams, research, wikis and documentation tooling",
+      "compatibility": "",
+      "description": "Create polished dark-themed architecture diagrams as self-contained HTML+SVG files. Use when the user asks for system, infrastructure, cloud, security, or network topology diagrams.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill architecture-diagram -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill architecture-diagram -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "architecture-diagram",
+      "path": "skills/knowledge/architecture-diagram",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/architecture-diagram",
+        "path": "architecture-diagram",
+        "ref": "07b4fbe3d0dfc307deafd29038e96b247c6d7d27",
+        "repo": "cocoon-ai/architecture-diagram-generator",
+        "type": "github",
+        "url": "https://github.com/cocoon-ai/architecture-diagram-generator"
+      },
+      "tags": [
+        "architecture",
+        "diagram",
+        "html",
+        "infrastructure",
+        "svg",
+        "system-design"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "knowledge",
+      "category_label": "Knowledge graphs, diagrams, research, wikis and documentation tooling",
+      "compatibility": "",
+      "description": "Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill blogwatcher -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill blogwatcher -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "blogwatcher",
+      "path": "skills/knowledge/blogwatcher",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/research/blogwatcher",
+        "path": "optional-skills/research/blogwatcher",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "blogs",
+        "feed-reader",
+        "feeds",
+        "monitoring",
+        "rss"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "knowledge",
+      "category_label": "Knowledge graphs, diagrams, research, wikis and documentation tooling",
+      "compatibility": "",
+      "description": "Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill excalidraw -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill excalidraw -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "excalidraw",
+      "path": "skills/knowledge/excalidraw",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/creative/excalidraw",
+        "path": "optional-skills/creative/excalidraw",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "architecture",
+        "diagram",
+        "diagrams",
+        "excalidraw",
+        "flowcharts",
+        "json",
+        "sketch",
+        "visualization",
+        "whiteboard"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "codebase-graph",
+        "knowledge-graph"
+      ],
+      "category": "knowledge",
+      "category_label": "Knowledge graphs, diagrams, research, wikis and documentation tooling",
+      "compatibility": "",
+      "description": "Use for any question about a codebase, its architecture, file relationships, or project content — especially when graphify-out/ exists, where the question should be treated as a graphify query first. Turns any input (code, docs, papers, images, videos) into a persistent knowledge graph with god node",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill graphify -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill graphify -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "graphify",
+      "path": "skills/knowledge/graphify",
+      "source": {
+        "installed_via": "uv tool install graphifyy && graphify install",
+        "origin": "~/.claude/skills/graphify",
+        "repo": "safishamsi/graphify",
+        "type": "github",
+        "url": "https://github.com/safishamsi/graphify",
+        "version": "0.9.67"
+      },
+      "tags": [
+        "architecture",
+        "codebase",
+        "graphrag",
+        "knowledge-graph",
+        "query"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "knowledge",
+      "category_label": "Knowledge graphs, diagrams, research, wikis and documentation tooling",
+      "compatibility": "",
+      "description": "Karpathy's LLM Wiki: build/query interlinked markdown KB.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill llm-wiki -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill llm-wiki -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "llm-wiki",
+      "path": "skills/knowledge/llm-wiki",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/research/llm-wiki",
+        "path": "optional-skills/research/llm-wiki",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "karpathy",
+        "knowledge-base",
+        "markdown",
+        "notes",
+        "rag-alternative",
+        "research",
+        "wiki"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "knowledge",
+      "category_label": "Knowledge graphs, diagrams, research, wikis and documentation tooling",
+      "compatibility": "",
+      "description": "Query Polymarket: markets, prices, orderbooks, history.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill polymarket -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill polymarket -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "polymarket",
+      "path": "skills/knowledge/polymarket",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/research/polymarket",
+        "path": "optional-skills/finance/polymarket",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "polymarket",
+        "prediction-markets",
+        "trading"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "knowledge",
+      "category_label": "Knowledge graphs, diagrams, research, wikis and documentation tooling",
+      "compatibility": "",
+      "description": "Write ML papers for NeurIPS/ICML/ICLR: design→submit.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill research-paper-writing -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill research-paper-writing -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "research-paper-writing",
+      "path": "skills/knowledge/research-paper-writing",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/research/research-paper-writing",
+        "path": "optional-skills/research/research-paper-writing",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "aaai",
+        "academic",
+        "acl",
+        "ai",
+        "citations",
+        "colm",
+        "experiments",
+        "iclr",
+        "icml",
+        "latex",
+        "ml",
+        "neurips",
+        "paper",
+        "paper writing",
+        "research",
+        "statistical analysis",
+        "writing"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "meta",
+      "category_label": "Skills about finding, installing and authoring skills",
+      "compatibility": "",
+      "description": "Manage skills for Claude Code CLI: install, update, remove, and organize third-party skills.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill claude-code-skill-management -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill claude-code-skill-management -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "claude-code-skill-management",
+      "path": "skills/meta/claude-code-skill-management",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/claude-code-skill-management",
+        "type": "local"
+      },
+      "tags": [
+        "claude-code",
+        "install",
+        "remove",
+        "skills",
+        "update"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "meta",
+      "category_label": "Skills about finding, installing and authoring skills",
+      "compatibility": "",
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable ski",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill find-skills -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill find-skills -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "find-skills",
+      "path": "skills/meta/find-skills",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/find-skills",
+        "path": "skills/find-skills",
+        "ref": "76a98a285cb0434f3d39e1a873823556330e398b",
+        "repo": "vercel-labs/skills",
+        "type": "github",
+        "url": "https://github.com/vercel-labs/skills"
+      },
+      "tags": [
+        "discovery",
+        "install",
+        "skills",
+        "skills.sh"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "meta",
+      "category_label": "Skills about finding, installing and authoring skills",
+      "compatibility": "",
+      "description": "Author in-repo SKILL.md files: frontmatter and structure.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill hermes-agent-skill-authoring -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill hermes-agent-skill-authoring -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "hermes-agent-skill-authoring",
+      "path": "skills/meta/hermes-agent-skill-authoring",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/software-development/hermes-agent-skill-authoring",
+        "path": "optional-skills/software-development/hermes-agent-skill-authoring",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "authoring",
+        "conventions",
+        "hermes",
+        "hermes-agent",
+        "skill-md",
+        "skills"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "find-skill",
+        "install-skill",
+        "skill-search"
+      ],
+      "category": "meta",
+      "category_label": "Skills about finding, installing and authoring skills",
+      "compatibility": "Requires git, gh (logged in to github.com with access to sleeperagentai/skills), python3 >= 3.9, node/npx and network access. Agent-agnostic; uses only shell commands.",
+      "description": "Master finder: searches the sleeperagentai/skills catalog, suggests and installs skills; falls back to skills.sh/GitHub, vets, vendors via PR, waits for merge, installs.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill skill-finder -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill skill-finder -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "skill-finder",
+      "path": "skills/meta/skill-finder",
+      "source": {
+        "note": "Original to this repo.",
+        "origin": "authored 2026-11-03 for sleeperagentai/skills",
+        "type": "local"
+      },
+      "tags": [
+        "catalog",
+        "discovery",
+        "install",
+        "meta",
+        "search",
+        "skills"
+      ],
+      "triggers": [
+        "find a skill",
+        "how do i",
+        "install a skill",
+        "is there a skill",
+        "which skill"
+      ],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "audiocraft",
+        "musicgen"
+      ],
+      "category": "mlops",
+      "category_label": "Model training, inference serving, evaluation and ML tooling",
+      "compatibility": "",
+      "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill audiocraft-audio-generation -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill audiocraft-audio-generation -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "audiocraft-audio-generation",
+      "path": "skills/mlops/audiocraft-audio-generation",
+      "source": {
+        "author": "Orchestra Research",
+        "note": "Third-party skill authored by Orchestra Research; installed via Hermes skills hub.",
+        "origin": "~/.hermes/skills/mlops/models/audiocraft",
+        "type": "third-party"
+      },
+      "tags": [
+        "audio generation",
+        "audio-generation",
+        "audiocraft",
+        "multimodal",
+        "music",
+        "musicgen",
+        "text-to-audio",
+        "text-to-music"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "mlops",
+      "category_label": "Model training, inference serving, evaluation and ML tooling",
+      "compatibility": "",
+      "description": "DSPy: declarative LM programs, auto-optimize prompts, RAG.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill dspy -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill dspy -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "dspy",
+      "path": "skills/mlops/dspy",
+      "source": {
+        "author": "Orchestra Research",
+        "note": "Third-party skill authored by Orchestra Research; installed via Hermes skills hub.",
+        "origin": "~/.hermes/skills/mlops/research/dspy",
+        "type": "third-party"
+      },
+      "tags": [
+        "agents",
+        "automatic optimization",
+        "declarative programming",
+        "dspy",
+        "llm-programs",
+        "lm programming",
+        "modular ai",
+        "prompt engineering",
+        "prompt optimization",
+        "prompt-optimization",
+        "rag",
+        "stanford nlp"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "lm-eval",
+        "lm-evaluation-harness"
+      ],
+      "category": "mlops",
+      "category_label": "Model training, inference serving, evaluation and ML tooling",
+      "compatibility": "",
+      "description": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill evaluating-llms-harness -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill evaluating-llms-harness -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "evaluating-llms-harness",
+      "path": "skills/mlops/evaluating-llms-harness",
+      "source": {
+        "author": "Orchestra Research",
+        "note": "Third-party skill authored by Orchestra Research; installed via Hermes skills hub.",
+        "origin": "~/.hermes/skills/mlops/evaluation/lm-evaluation-harness",
+        "type": "third-party"
+      },
+      "tags": [
+        "academic benchmarks",
+        "benchmarking",
+        "benchmarks",
+        "eleutherai",
+        "evaluation",
+        "gsm8k",
+        "humaneval",
+        "industry standard",
+        "llm",
+        "lm evaluation harness",
+        "lm-eval-harness",
+        "mmlu",
+        "model quality"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "mlops",
+      "category_label": "Model training, inference serving, evaluation and ML tooling",
+      "compatibility": "",
+      "description": "HuggingFace hf CLI: search/download/upload models, datasets.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill huggingface-hub -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill huggingface-hub -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "huggingface-hub",
+      "path": "skills/mlops/huggingface-hub",
+      "source": {
+        "author": "Hugging Face",
+        "note": "Third-party skill authored by Hugging Face; installed via Hermes skills hub.",
+        "origin": "~/.hermes/skills/mlops/huggingface-hub",
+        "type": "third-party"
+      },
+      "tags": [
+        "datasets",
+        "hub",
+        "huggingface",
+        "models",
+        "upload"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "mlops",
+      "category_label": "Model training, inference serving, evaluation and ML tooling",
+      "compatibility": "",
+      "description": "llama.cpp local GGUF inference + HF Hub model discovery.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill llama-cpp -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill llama-cpp -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "llama-cpp",
+      "path": "skills/mlops/llama-cpp",
+      "source": {
+        "author": "Orchestra Research",
+        "note": "Third-party skill authored by Orchestra Research; installed via Hermes skills hub.",
+        "origin": "~/.hermes/skills/mlops/inference/llama-cpp",
+        "type": "third-party"
+      },
+      "tags": [
+        "amd gpus",
+        "apple silicon",
+        "cpu",
+        "cpu inference",
+        "edge deployment",
+        "gguf",
+        "hugging face hub",
+        "intel gpus",
+        "llama.cpp",
+        "local-inference",
+        "nvidia",
+        "quantization",
+        "url-first"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "mlops",
+      "category_label": "Model training, inference serving, evaluation and ML tooling",
+      "compatibility": "",
+      "description": "OBLITERATUS: abliterate LLM refusals (diff-in-means).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill obliteratus -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill obliteratus -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "obliteratus",
+      "path": "skills/mlops/obliteratus",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/mlops/inference/obliteratus",
+        "path": "optional-skills/mlops/obliteratus",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "abliteration",
+        "huggingface",
+        "llm",
+        "mechanistic-interpretability",
+        "model-editing",
+        "model-surgery",
+        "refusal-removal",
+        "refusals",
+        "svd",
+        "uncensoring",
+        "weight-projection"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "sam",
+        "segment-anything"
+      ],
+      "category": "mlops",
+      "category_label": "Model training, inference serving, evaluation and ML tooling",
+      "compatibility": "",
+      "description": "SAM: zero-shot image segmentation via points, boxes, masks.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill segment-anything-model -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill segment-anything-model -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "segment-anything-model",
+      "path": "skills/mlops/segment-anything-model",
+      "source": {
+        "author": "Orchestra Research",
+        "note": "Third-party skill authored by Orchestra Research; installed via Hermes skills hub.",
+        "origin": "~/.hermes/skills/mlops/models/segment-anything",
+        "type": "third-party"
+      },
+      "tags": [
+        "computer vision",
+        "computer-vision",
+        "image segmentation",
+        "images",
+        "multimodal",
+        "sam",
+        "segmentation",
+        "zero-shot"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "vllm"
+      ],
+      "category": "mlops",
+      "category_label": "Model training, inference serving, evaluation and ML tooling",
+      "compatibility": "",
+      "description": "vLLM: high-throughput LLM serving, OpenAI API, quantization.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill serving-llms-vllm -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill serving-llms-vllm -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "serving-llms-vllm",
+      "path": "skills/mlops/serving-llms-vllm",
+      "source": {
+        "author": "Orchestra Research",
+        "note": "Third-party skill authored by Orchestra Research; installed via Hermes skills hub.",
+        "origin": "~/.hermes/skills/mlops/inference/vllm",
+        "type": "third-party"
+      },
+      "tags": [
+        "continuous batching",
+        "gpu",
+        "high throughput",
+        "inference",
+        "inference serving",
+        "llm",
+        "openai api",
+        "pagedattention",
+        "production",
+        "quantization",
+        "serving",
+        "tensor parallelism",
+        "vllm"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "mlops",
+      "category_label": "Model training, inference serving, evaluation and ML tooling",
+      "compatibility": "",
+      "description": "W&B: log ML experiments, sweeps, model registry, dashboards.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill weights-and-biases -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill weights-and-biases -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "weights-and-biases",
+      "path": "skills/mlops/weights-and-biases",
+      "source": {
+        "author": "Orchestra Research",
+        "note": "Third-party skill authored by Orchestra Research; installed via Hermes skills hub.",
+        "origin": "~/.hermes/skills/mlops/evaluation/weights-and-biases",
+        "type": "third-party"
+      },
+      "tags": [
+        "collaboration",
+        "experiment tracking",
+        "experiment-tracking",
+        "huggingface",
+        "hyperparameter tuning",
+        "logging",
+        "mlops",
+        "model registry",
+        "pytorch",
+        "real-time visualization",
+        "tensorflow",
+        "training",
+        "wandb",
+        "weights and biases"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "productivity",
+      "category_label": "Documents, spreadsheets, PDFs, task trackers and everyday tools",
+      "compatibility": "",
+      "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill airtable -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill airtable -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "airtable",
+      "path": "skills/productivity/airtable",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/productivity/airtable",
+        "path": "optional-skills/productivity/airtable",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "airtable",
+        "api",
+        "database",
+        "productivity",
+        "spreadsheet"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "productivity",
+      "category_label": "Documents, spreadsheets, PDFs, task trackers and everyday tools",
+      "compatibility": "",
+      "description": "Box manages cloud files, sharing, search, and metadata.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill box -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill box -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "box",
+      "path": "skills/productivity/box",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/productivity/box",
+        "path": "optional-skills/productivity/box",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "box",
+        "cli",
+        "cloud storage",
+        "cloud-storage",
+        "collaboration",
+        "content extraction",
+        "files",
+        "metadata",
+        "productivity",
+        "sdk"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "word"
+      ],
+      "category": "productivity",
+      "category_label": "Documents, spreadsheets, PDFs, task trackers and everyday tools",
+      "compatibility": "",
+      "description": "Create, read, edit, template, and review Word .docx files.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill docx -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill docx -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "docx",
+      "path": "skills/productivity/docx",
+      "source": {
+        "author": "Nous Research",
+        "installed_via": "hermes skills hub",
+        "origin": "~/.hermes/skills/productivity/docx",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "comments",
+        "documents",
+        "docx",
+        "office",
+        "revisions",
+        "templates",
+        "word"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "productivity",
+      "category_label": "Documents, spreadsheets, PDFs, task trackers and everyday tools",
+      "compatibility": "",
+      "description": "Find cheap flights while dealing with anti-bot measures.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill flight-search -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill flight-search -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "flight-search",
+      "path": "skills/productivity/flight-search",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/travel/flight-search",
+        "type": "local"
+      },
+      "tags": [
+        "booking",
+        "flights",
+        "search",
+        "travel"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "productivity",
+      "category_label": "Documents, spreadsheets, PDFs, task trackers and everyday tools",
+      "compatibility": "",
+      "description": "Linear: manage issues, projects, teams via GraphQL + curl.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill linear -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill linear -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "linear",
+      "path": "skills/productivity/linear",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/productivity/linear",
+        "type": "local"
+      },
+      "tags": [
+        "api",
+        "graphql",
+        "issues",
+        "linear",
+        "productivity",
+        "project management",
+        "project-management"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "productivity",
+      "category_label": "Documents, spreadsheets, PDFs, task trackers and everyday tools",
+      "compatibility": "",
+      "description": "Edit PDF text/typos/titles via nano-pdf CLI (NL prompts).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill nano-pdf -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill nano-pdf -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "nano-pdf",
+      "path": "skills/productivity/nano-pdf",
+      "source": {
+        "author": "community",
+        "note": "Community skill installed via Hermes skills hub.",
+        "origin": "~/.hermes/skills/productivity/nano-pdf",
+        "type": "third-party"
+      },
+      "tags": [
+        "documents",
+        "edit-pdf",
+        "editing",
+        "nlp",
+        "pdf",
+        "productivity"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "productivity",
+      "category_label": "Documents, spreadsheets, PDFs, task trackers and everyday tools",
+      "compatibility": "",
+      "description": "Notion API + ntn CLI: pages, databases, markdown, Workers.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill notion -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill notion -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "notion",
+      "path": "skills/productivity/notion",
+      "source": {
+        "installed_via": "hermes skills install",
+        "origin": "~/.hermes/skills/productivity/notion",
+        "path": "optional-skills/productivity/notion",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "api",
+        "cli",
+        "database",
+        "databases",
+        "notes",
+        "notion",
+        "pages",
+        "productivity",
+        "workers"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "productivity",
+      "category_label": "Documents, spreadsheets, PDFs, task trackers and everyday tools",
+      "compatibility": "",
+      "description": "Extract text from PDFs/scans (pymupdf, marker-pdf).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill ocr-and-documents -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill ocr-and-documents -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "ocr-and-documents",
+      "path": "skills/productivity/ocr-and-documents",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/productivity/ocr-and-documents",
+        "type": "local"
+      },
+      "tags": [
+        "arxiv",
+        "documents",
+        "ocr",
+        "pdf",
+        "research",
+        "scanned",
+        "text-extraction"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "pptx",
+        "slides"
+      ],
+      "category": "productivity",
+      "category_label": "Documents, spreadsheets, PDFs, task trackers and everyday tools",
+      "compatibility": "",
+      "description": "Create, read, edit .pptx decks with python-pptx.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill powerpoint -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill powerpoint -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "powerpoint",
+      "path": "skills/productivity/powerpoint",
+      "source": {
+        "author": "Nous Research",
+        "installed_via": "hermes skills hub",
+        "origin": "~/.hermes/skills/productivity/powerpoint",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "office",
+        "powerpoint",
+        "pptx",
+        "presentation",
+        "presentations",
+        "python-pptx",
+        "slides"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "excel",
+        "spreadsheet"
+      ],
+      "category": "productivity",
+      "category_label": "Documents, spreadsheets, PDFs, task trackers and everyday tools",
+      "compatibility": "",
+      "description": "Create, read, edit Excel .xlsx workbooks and CSVs.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill xlsx -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill xlsx -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "xlsx",
+      "path": "skills/productivity/xlsx",
+      "source": {
+        "author": "Nous Research",
+        "installed_via": "hermes skills hub",
+        "origin": "~/.hermes/skills/productivity/xlsx",
+        "repo": "NousResearch/hermes-agent",
+        "type": "github",
+        "url": "https://github.com/NousResearch/hermes-agent"
+      },
+      "tags": [
+        "csv",
+        "excel",
+        "office",
+        "openpyxl",
+        "productivity",
+        "spreadsheet",
+        "xlsx"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "project",
+      "category_label": "Skills written for the user's own projects (private context)",
+      "compatibility": "",
+      "description": "Use when working in the agentclip/openstudio monorepo.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill openstudio-development -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill openstudio-development -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "openstudio-development",
+      "path": "skills/project/openstudio-development",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/openstudio-development",
+        "type": "local"
+      },
+      "tags": [
+        "go",
+        "monorepo",
+        "nextjs",
+        "openstudio",
+        "project",
+        "remotion",
+        "temporal"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "project",
+      "category_label": "Skills written for the user's own projects (private context)",
+      "compatibility": "",
+      "description": "OpenStudio Riso pixel-perfect UI rebuild (feat/riso-design).",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill openstudio-riso-rebuild -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill openstudio-riso-rebuild -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "openstudio-riso-rebuild",
+      "path": "skills/project/openstudio-riso-rebuild",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/openstudio-development/openstudio-riso-rebuild",
+        "type": "local"
+      },
+      "tags": [
+        "openstudio",
+        "project",
+        "rebuild",
+        "riso"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Orchestrating multi-step AI generation pipelines for media creation (video, audio, images) with human approval checkpoints and template-based systems",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill ai-agentic-media-workflow -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill ai-agentic-media-workflow -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "ai-agentic-media-workflow",
+      "path": "skills/video/ai-agentic-media-workflow",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/mlops/ai-agentic-media-workflow",
+        "type": "local"
+      },
+      "tags": [
+        "ai-pipeline",
+        "media",
+        "video",
+        "workflow"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Use this skill when building AI-powered multimedia generation platforms that require orchestration of multiple AI models (text, audio, image, video) with optional human approval checkpoints. This approach properly distinguishes between System 1 (fast, intuitive) and System 2 (reasoning, creative) AI",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill ai-agentic-multimedia-workflow -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill ai-agentic-multimedia-workflow -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "ai-agentic-multimedia-workflow",
+      "path": "skills/video/ai-agentic-multimedia-workflow",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/mlops/ai-agentic-multimedia-workflow",
+        "type": "local"
+      },
+      "tags": [
+        "ai-pipeline",
+        "audio",
+        "multimedia",
+        "video",
+        "workflow"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Build a full-stack video processing platform with FastAPI backend, Next.js/Remotion frontend, Prefect orchestration, PostgreSQL database, MinIO/S3 storage, and Docker Compose for local/dev and cloud deployment.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill full-stack-video-platform -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill full-stack-video-platform -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "full-stack-video-platform",
+      "path": "skills/video/full-stack-video-platform",
+      "source": {
+        "author": "Hermes Agent",
+        "note": "Authored by the Hermes agent on this machine for the user's own work.",
+        "origin": "~/.hermes/skills/full-stack-video-platform",
+        "type": "local"
+      },
+      "tags": [
+        "fastapi",
+        "nextjs",
+        "platform",
+        "remotion",
+        "video"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Set up a Remotion project with agent skills for autonomous development.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-agent-setup -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-agent-setup -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-agent-setup",
+      "path": "skills/video/remotion-agent-setup",
+      "source": {
+        "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+        "origin": "~/.hermes/skills/media/remotion-agent-setup",
+        "type": "local"
+      },
+      "tags": [
+        "agent",
+        "remotion",
+        "setup"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Router for all Remotion skills",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-best-practices -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-best-practices -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-best-practices",
+      "path": "skills/video/remotion-best-practices",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/remotion-best-practices",
+        "path": "skills/remotion-best-practices",
+        "ref": "5af1d61fe556fb2a461ecc7e1473861777ff92a6",
+        "repo": "remotion-dev/skills",
+        "type": "github",
+        "url": "https://github.com/remotion-dev/skills"
+      },
+      "tags": [
+        "react",
+        "remotion",
+        "router",
+        "video"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Transcribing, displaying and animating captions",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-captions -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-captions -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-captions",
+      "path": "skills/video/remotion-captions",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/remotion-captions",
+        "path": "skills/remotion-captions",
+        "ref": "9c355297f041e2c892a2e9957eb54bc4e83a83bc",
+        "repo": "remotion-dev/skills",
+        "type": "github",
+        "url": "https://github.com/remotion-dev/skills"
+      },
+      "tags": [
+        "captions",
+        "remotion",
+        "subtitles",
+        "transcription",
+        "whisper"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Create a new Remotion video",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-create -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-create -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-create",
+      "path": "skills/video/remotion-create",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/remotion-create",
+        "path": "skills/remotion-create",
+        "ref": "255281ee9a651c454a314092bfd13bdc737a5624",
+        "repo": "remotion-dev/skills",
+        "type": "github",
+        "url": "https://github.com/remotion-dev/skills"
+      },
+      "tags": [
+        "new-project",
+        "remotion",
+        "scaffold",
+        "video"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Search Remotion documentation",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-docs -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-docs -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-docs",
+      "path": "skills/video/remotion-docs",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/remotion-docs",
+        "path": "skills/remotion-docs",
+        "ref": "37b76a9bf276ea3af65cc2090d86e4f2ee16f307",
+        "repo": "remotion-dev/skills",
+        "type": "github",
+        "url": "https://github.com/remotion-dev/skills"
+      },
+      "tags": [
+        "documentation",
+        "remotion",
+        "search"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Structure Remotion markup for interactivity",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-interactivity -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-interactivity -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-interactivity",
+      "path": "skills/video/remotion-interactivity",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/remotion-interactivity",
+        "path": "skills/remotion-interactivity",
+        "ref": "12a9c7ceb7f732c1d4c6a2e3831ce40405d2e64f",
+        "repo": "remotion-dev/skills",
+        "type": "github",
+        "url": "https://github.com/remotion-dev/skills"
+      },
+      "tags": [
+        "interactive",
+        "markup",
+        "remotion"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Remotion Map animation knowledge",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-maps -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-maps -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-maps",
+      "path": "skills/video/remotion-maps",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/remotion-maps",
+        "path": "skills/remotion-maps",
+        "ref": "2e9b8cd9dab01d795a48665adb328cb7716e2b80",
+        "repo": "remotion-dev/skills",
+        "type": "github",
+        "url": "https://github.com/remotion-dev/skills"
+      },
+      "tags": [
+        "animation",
+        "mapbox",
+        "maps",
+        "remotion"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Content, animation and effects best practices",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-markup -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-markup -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-markup",
+      "path": "skills/video/remotion-markup",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/remotion-markup",
+        "path": "skills/remotion-markup",
+        "ref": "42ab5de6550c2701405a809f2e2d88c57b4e9b5f",
+        "repo": "remotion-dev/skills",
+        "type": "github",
+        "url": "https://github.com/remotion-dev/skills"
+      },
+      "tags": [
+        "animation",
+        "content",
+        "effects",
+        "remotion"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Interacting with Mediabunny",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-multimedia -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-multimedia -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-multimedia",
+      "path": "skills/video/remotion-multimedia",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/remotion-multimedia",
+        "path": "skills/remotion-multimedia",
+        "ref": "0043ceca4cfae43edb69662e2a38c0fc7729a029",
+        "repo": "remotion-dev/skills",
+        "type": "github",
+        "url": "https://github.com/remotion-dev/skills"
+      },
+      "tags": [
+        "audio",
+        "mediabunny",
+        "remotion",
+        "video-processing"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Export a Remotion video",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-render -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-render -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-render",
+      "path": "skills/video/remotion-render",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/remotion-render",
+        "path": "skills/remotion-render",
+        "ref": "8658c0bb1209a916aac87a43f4cdc43d59e81071",
+        "repo": "remotion-dev/skills",
+        "type": "github",
+        "url": "https://github.com/remotion-dev/skills"
+      },
+      "tags": [
+        "export",
+        "mp4",
+        "remotion",
+        "render",
+        "video"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Build an app with Remotion",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-saas -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-saas -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-saas",
+      "path": "skills/video/remotion-saas",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/remotion-saas",
+        "path": "skills/remotion-saas",
+        "ref": "89ae5f2615f7f5e813f39be351dc71483e3dfdd3",
+        "repo": "remotion-dev/skills",
+        "type": "github",
+        "url": "https://github.com/remotion-dev/skills"
+      },
+      "tags": [
+        "app",
+        "lambda",
+        "remotion",
+        "saas"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Preview a Remotion video",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-studio -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-studio -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-studio",
+      "path": "skills/video/remotion-studio",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/remotion-studio",
+        "path": "skills/remotion-studio",
+        "ref": "b62d6038afe365b1e046f61d7e6fdc002782a2ee",
+        "repo": "remotion-dev/skills",
+        "type": "github",
+        "url": "https://github.com/remotion-dev/skills"
+      },
+      "tags": [
+        "preview",
+        "remotion",
+        "studio"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [],
+      "category": "video",
+      "category_label": "Remotion and programmatic video, motion graphics, media pipelines",
+      "compatibility": "",
+      "description": "Upgrade Remotion, and related packages",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill remotion-upgrade -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill remotion-upgrade -y"
+      },
+      "kind": "skill",
+      "license": "",
+      "name": "remotion-upgrade",
+      "path": "skills/video/remotion-upgrade",
+      "source": {
+        "installed_via": "npx skills add",
+        "origin": "~/.agents/skills/remotion-upgrade",
+        "path": "skills/remotion-upgrade",
+        "ref": "ce4afd8436a20cef3182aa922401d7a4346c34be",
+        "repo": "remotion-dev/skills",
+        "type": "github",
+        "url": "https://github.com/remotion-dev/skills"
+      },
+      "tags": [
+        "dependencies",
+        "remotion",
+        "upgrade"
+      ],
+      "triggers": [],
+      "vendored": true
+    }
+  ]
+}
