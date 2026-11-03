@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "devops",
+  "description": "Boot Grafana+Tempo+Loki+Prom+Pyroscope+otelcol natively.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill self-hosted-grafana-stack -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill self-hosted-grafana-stack -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "self-hosted-grafana-stack",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/devops/self-hosted-grafana-stack",
+    "type": "local"
+  },
+  "tags": [
+    "grafana",
+    "loki",
+    "monitoring",
+    "prometheus",
+    "self-hosted"
+  ],
+  "vendored": true
+}

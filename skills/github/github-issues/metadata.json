@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "github",
+  "description": "Create, triage, label, assign GitHub issues via gh or REST.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill github-issues -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill github-issues -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "github-issues",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/github/github-issues",
+    "type": "local"
+  },
+  "tags": [
+    "gh",
+    "github",
+    "issues",
+    "triage"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,28 @@
+{
+  "added": "2026-11-03",
+  "category": "mlops",
+  "description": "OBLITERATUS: abliterate LLM refusals (diff-in-means).",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill obliteratus -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill obliteratus -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "obliteratus",
+  "schema_version": 1,
+  "source": {
+    "installed_via": "hermes skills install",
+    "origin": "~/.hermes/skills/mlops/inference/obliteratus",
+    "path": "optional-skills/mlops/obliteratus",
+    "repo": "NousResearch/hermes-agent",
+    "type": "github",
+    "url": "https://github.com/NousResearch/hermes-agent"
+  },
+  "tags": [
+    "abliteration",
+    "llm",
+    "model-editing",
+    "refusals"
+  ],
+  "vendored": true
+}

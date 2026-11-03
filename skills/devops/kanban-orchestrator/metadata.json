@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "devops",
+  "description": "Decomposition playbook + anti-temptation rules for an orchestrator profile routing work through Kanban. The \"don't do the work yourself\" rule and the basic lifecycle are auto-injected into every kanban worker's system prompt; this skill is the deeper playbook when you're specifically playing the orc",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill kanban-orchestrator -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill kanban-orchestrator -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "kanban-orchestrator",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/devops/kanban-orchestrator",
+    "type": "local"
+  },
+  "tags": [
+    "kanban",
+    "multi-agent",
+    "orchestration",
+    "tasks"
+  ],
+  "vendored": true
+}

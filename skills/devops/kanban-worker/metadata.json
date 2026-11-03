@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "devops",
+  "description": "Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker's system prompt as KANBAN_GUIDANCE (from agent/prompt_builder.py); this skill is what you load when you want deeper detail on specific scenarios.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill kanban-worker -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill kanban-worker -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "kanban-worker",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/devops/kanban-worker",
+    "type": "local"
+  },
+  "tags": [
+    "kanban",
+    "multi-agent",
+    "tasks",
+    "worker"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "github",
+  "description": "Clone/create/fork repos; manage remotes, releases.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill github-repo-management -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill github-repo-management -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "github-repo-management",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/github/github-repo-management",
+    "type": "local"
+  },
+  "tags": [
+    "gh",
+    "github",
+    "releases",
+    "repository",
+    "secrets"
+  ],
+  "vendored": true
+}

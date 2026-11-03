@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "mlops",
+  "description": "DSPy: declarative LM programs, auto-optimize prompts, RAG.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill dspy -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill dspy -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "dspy",
+  "schema_version": 1,
+  "source": {
+    "author": "Orchestra Research",
+    "note": "Third-party skill authored by Orchestra Research; installed via Hermes skills hub.",
+    "origin": "~/.hermes/skills/mlops/research/dspy",
+    "type": "third-party"
+  },
+  "tags": [
+    "dspy",
+    "llm-programs",
+    "prompt-optimization"
+  ],
+  "vendored": true
+}

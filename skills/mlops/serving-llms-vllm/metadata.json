@@ -1,0 +1,30 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "vllm"
+  ],
+  "category": "mlops",
+  "description": "vLLM: high-throughput LLM serving, OpenAI API, quantization.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill serving-llms-vllm -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill serving-llms-vllm -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "serving-llms-vllm",
+  "schema_version": 1,
+  "source": {
+    "author": "Orchestra Research",
+    "note": "Third-party skill authored by Orchestra Research; installed via Hermes skills hub.",
+    "origin": "~/.hermes/skills/mlops/inference/vllm",
+    "type": "third-party"
+  },
+  "tags": [
+    "gpu",
+    "inference",
+    "llm",
+    "serving",
+    "vllm"
+  ],
+  "vendored": true
+}

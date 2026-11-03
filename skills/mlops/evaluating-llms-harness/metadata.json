@@ -1,0 +1,30 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "lm-eval",
+    "lm-evaluation-harness"
+  ],
+  "category": "mlops",
+  "description": "lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill evaluating-llms-harness -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill evaluating-llms-harness -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "evaluating-llms-harness",
+  "schema_version": 1,
+  "source": {
+    "author": "Orchestra Research",
+    "note": "Third-party skill authored by Orchestra Research; installed via Hermes skills hub.",
+    "origin": "~/.hermes/skills/mlops/evaluation/lm-evaluation-harness",
+    "type": "third-party"
+  },
+  "tags": [
+    "benchmarks",
+    "evaluation",
+    "llm",
+    "lm-eval-harness"
+  ],
+  "vendored": true
+}

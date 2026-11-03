@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "devops",
+  "description": "Comprehensive setup for technical work environments including shell configuration, knowledge vault organization, and structured learning systems with automated task delivery.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill technical-environment-setup -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill technical-environment-setup -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "technical-environment-setup",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/productivity/technical-environment-setup",
+    "type": "local"
+  },
+  "tags": [
+    "dev-machine",
+    "dotfiles",
+    "environment",
+    "setup",
+    "tooling"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,30 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "audiocraft",
+    "musicgen"
+  ],
+  "category": "mlops",
+  "description": "AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill audiocraft-audio-generation -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill audiocraft-audio-generation -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "audiocraft-audio-generation",
+  "schema_version": 1,
+  "source": {
+    "author": "Orchestra Research",
+    "note": "Third-party skill authored by Orchestra Research; installed via Hermes skills hub.",
+    "origin": "~/.hermes/skills/mlops/models/audiocraft",
+    "type": "third-party"
+  },
+  "tags": [
+    "audio-generation",
+    "audiocraft",
+    "music",
+    "musicgen"
+  ],
+  "vendored": true
+}

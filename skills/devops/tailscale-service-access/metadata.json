@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "category": "devops",
+  "description": "Access local services via Tailscale MagicDNS",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill tailscale-service-access -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill tailscale-service-access -y"
+  },
+  "license": "",
+  "modified": false,
+  "name": "tailscale-service-access",
+  "schema_version": 1,
+  "source": {
+    "note": "Installed or authored in the Hermes agent; upstream not recorded.",
+    "origin": "~/.hermes/skills/devops/tailscale-service-access",
+    "type": "local"
+  },
+  "tags": [
+    "networking",
+    "remote-access",
+    "tailscale",
+    "vpn"
+  ],
+  "vendored": true
+}

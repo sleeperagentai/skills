@@ -1,0 +1,30 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "sam",
+    "segment-anything"
+  ],
+  "category": "mlops",
+  "description": "SAM: zero-shot image segmentation via points, boxes, masks.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill segment-anything-model -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill segment-anything-model -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "segment-anything-model",
+  "schema_version": 1,
+  "source": {
+    "author": "Orchestra Research",
+    "note": "Third-party skill authored by Orchestra Research; installed via Hermes skills hub.",
+    "origin": "~/.hermes/skills/mlops/models/segment-anything",
+    "type": "third-party"
+  },
+  "tags": [
+    "computer-vision",
+    "images",
+    "sam",
+    "segmentation"
+  ],
+  "vendored": true
+}

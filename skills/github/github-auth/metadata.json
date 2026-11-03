@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "github",
+  "description": "GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill github-auth -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill github-auth -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "github-auth",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/github/github-auth",
+    "type": "local"
+  },
+  "tags": [
+    "auth",
+    "gh",
+    "github",
+    "ssh",
+    "token"
+  ],
+  "vendored": true
+}

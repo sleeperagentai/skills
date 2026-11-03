@@ -1,0 +1,22 @@
+# Grafana Pyroscope v2 — single-process (no distributed metastore).
+# Boot flags (REQUIRED):
+#   -architecture.storage=v1    # avoids metastore :9095 requirement
+#   -write-path=ingester        # v1 storage demands this
+# Config fields that were in v0/v1 and are now REJECTED by the parser:
+#   compactor.blocks_retention_period
+#   usage_stats
+# Strip them if you copied an older example.
+target: all
+
+server:
+  http_listen_port: 4040
+  grpc_listen_port: 9097
+  log_level: warn
+
+storage:
+  backend: filesystem
+  filesystem:
+    dir: /REPLACE_ME/pyroscope/data
+
+analytics:
+  reporting_enabled: false

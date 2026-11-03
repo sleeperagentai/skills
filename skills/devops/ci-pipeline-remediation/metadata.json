@@ -1,0 +1,26 @@
+{
+  "added": "2026-11-03",
+  "category": "devops",
+  "description": "Make red CI green on an existing repo without a huge PR.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill ci-pipeline-remediation -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill ci-pipeline-remediation -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "ci-pipeline-remediation",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/devops/ci-pipeline-remediation",
+    "type": "local"
+  },
+  "tags": [
+    "ci",
+    "fix-ci",
+    "github-actions",
+    "pipeline"
+  ],
+  "vendored": true
+}

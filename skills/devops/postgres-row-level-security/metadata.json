@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "devops",
+  "description": "Postgres RLS: policies, ownership bypass, migrations.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill postgres-row-level-security -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill postgres-row-level-security -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "postgres-row-level-security",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/devops/postgres-row-level-security",
+    "type": "local"
+  },
+  "tags": [
+    "database",
+    "multi-tenant",
+    "postgres",
+    "rls",
+    "security"
+  ],
+  "vendored": true
+}

@@ -1,0 +1,49 @@
+# Grafana Tempo 3.x — monolithic single-binary (target: all), local filesystem.
+# Mirrors example/docker-compose/single-binary/tempo.yaml from the v3.1.0 tag.
+# Boot flags (REQUIRED — these paths are hardcoded to /var/tempo otherwise):
+#   -live-store.wal.path=<dir>
+#   -live-store.shutdown_marker_dir=<dir>
+#   -block-builder.wal.path=<dir>
+#   -backend-schedulerbackend-scheduler.local-work-path=<dir>
+stream_over_http_enabled: true
+
+server:
+  http_listen_port: 3200
+  log_level: warn
+
+distributor:
+  receivers:
+    otlp:
+      protocols:
+        grpc:
+          endpoint: "0.0.0.0:4327"   # NOT 4317 — Collector owns that
+        http:
+          endpoint: "0.0.0.0:4328"   # NOT 4318
+
+metrics_generator:
+  registry:
+    external_labels:
+      source: tempo
+      cluster: dev
+  storage:
+    path: /REPLACE_ME/tempo/generator-wal
+    remote_write:
+      - url: http://localhost:9090/api/v1/write
+        send_exemplars: true
+
+storage:
+  trace:
+    backend: local
+    wal:
+      path: /REPLACE_ME/tempo/wal
+    local:
+      path: /REPLACE_ME/tempo/blocks
+
+overrides:
+  defaults:
+    metrics_generator:
+      processors: ["span-metrics", "service-graphs"]
+      generate_native_histograms: both
+
+usage_report:
+  reporting_enabled: false

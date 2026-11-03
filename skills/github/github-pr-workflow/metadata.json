@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "category": "github",
+  "description": "GitHub PR lifecycle: branch, commit, open, CI, merge.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill github-pr-workflow -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill github-pr-workflow -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "github-pr-workflow",
+  "schema_version": 1,
+  "source": {
+    "author": "Hermes Agent",
+    "note": "Authored by the Hermes agent on this machine for the user's own work.",
+    "origin": "~/.hermes/skills/github/github-pr-workflow",
+    "type": "local"
+  },
+  "tags": [
+    "branch",
+    "gh",
+    "github",
+    "merge",
+    "pull-request"
+  ],
+  "vendored": true
+}
