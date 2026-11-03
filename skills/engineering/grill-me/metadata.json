@@ -1,0 +1,46 @@
+{
+  "added": "2026-11-03",
+  "added_by": "skill-finder",
+  "aliases": [
+    "grill",
+    "grilling",
+    "interview-me-hard"
+  ],
+  "category": "engineering",
+  "description": "A relentless interview to sharpen a plan or design. Thin entry point that invokes the grilling skill; install both.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill grill-me -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill grill-me -y",
+    "upstream": "npx -y skills add mattpocock/skills --skill grill-me -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "grill-me",
+  "quality": {
+    "upstream_installs": 0,
+    "upstream_stars": 310257,
+    "verdict": "ok",
+    "vetted_on": "2026-11-03"
+  },
+  "requires": [
+    "grilling"
+  ],
+  "schema_version": 1,
+  "source": {
+    "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "installed_via": "skill-finder",
+    "path": "skills/productivity/grill-me",
+    "repo": "mattpocock/skills",
+    "type": "github",
+    "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/grill-me"
+  },
+  "tags": [
+    "interview",
+    "requirements",
+    "plan",
+    "stress-test",
+    "questions"
+  ],
+  "triggers": [],
+  "vendored": true
+}
