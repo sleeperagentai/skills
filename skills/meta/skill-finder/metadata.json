@@ -1,0 +1,39 @@
+{
+  "added": "2026-11-03",
+  "aliases": [
+    "find-skill",
+    "skill-search",
+    "install-skill"
+  ],
+  "category": "meta",
+  "description": "Master finder: searches the sleeperagentai/skills catalog, suggests and installs skills; falls back to skills.sh/GitHub, vets, vendors via PR, waits for merge, installs.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill skill-finder -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill skill-finder -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "skill-finder",
+  "schema_version": 1,
+  "source": {
+    "type": "local",
+    "note": "Original to this repo.",
+    "origin": "authored 2026-11-03 for sleeperagentai/skills"
+  },
+  "tags": [
+    "skills",
+    "discovery",
+    "search",
+    "install",
+    "catalog",
+    "meta"
+  ],
+  "triggers": [
+    "is there a skill",
+    "find a skill",
+    "install a skill",
+    "which skill",
+    "how do i"
+  ],
+  "vendored": true
+}
