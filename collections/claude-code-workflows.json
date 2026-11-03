@@ -1,0 +1,23 @@
+{
+  "added": "2026-11-03",
+  "description": "OneRedOak's Claude Code workflows: design-review (Playwright-driven front-end review agent and /design-review command), code-review and security-review setups.",
+  "install": {
+    "clone": "git clone --depth 1 https://github.com/OneRedOak/claude-code-workflows",
+    "usage": "Clone the repo and copy design-review/ files (slash command, agent, design-principles example) into your agent's commands/agents directories as described in its README."
+  },
+  "kind": "collection",
+  "license": "MIT",
+  "name": "claude-code-workflows",
+  "origin": "~/.claude/skills/claude-code-design-review-workflow (broken HTML copy)",
+  "repo": "OneRedOak/claude-code-workflows",
+  "skills_count": 3,
+  "stars": 3914,
+  "tags": [
+    "design-review",
+    "workflow",
+    "playwright",
+    "code-review"
+  ],
+  "url": "https://github.com/OneRedOak/claude-code-workflows",
+  "vendored": false
+}

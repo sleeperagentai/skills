@@ -1,0 +1,25 @@
+{
+  "added": "2026-11-03",
+  "description": "Designer Skills Collection by Marie Claire Dean: 63 design skills and 27 commands in 8 plugins covering research, UX, visual design, content and developer handoff.",
+  "install": {
+    "all": "npx -y skills add Owl-Listener/designer-skills --all -y",
+    "claude_code_plugin": "/plugin marketplace add Owl-Listener/designer-skills, then /plugin install <plugin>@designer-skills",
+    "example": "npx -y skills add Owl-Listener/designer-skills --skill design-critique -y"
+  },
+  "kind": "collection",
+  "license": "MIT",
+  "name": "designer-skills",
+  "origin": "~/.claude/skills/designer-skills-collection (broken HTML copy)",
+  "repo": "Owl-Listener/designer-skills",
+  "skills_count": 63,
+  "stars": 3219,
+  "tags": [
+    "design",
+    "ux",
+    "research",
+    "handoff",
+    "plugin-marketplace"
+  ],
+  "url": "https://github.com/Owl-Listener/designer-skills",
+  "vendored": false
+}

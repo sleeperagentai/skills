@@ -1,0 +1,27 @@
+{
+  "added": "2026-11-03",
+  "description": "Bencium's design and development skills: controlled and innovative UX designer, impact designer, design audit, code conventions (React, Next.js, TypeScript, Tailwind, Supabase), AEO.",
+  "install": {
+    "all": "npx -y skills add bencium/bencium-claude-code-design-skill --all -y",
+    "claude_code_plugin": "/plugin marketplace add bencium/bencium-marketplace, then /plugin install <plugin>@bencium-marketplace",
+    "example": "npx -y skills add bencium/bencium-claude-code-design-skill --skill bencium-innovative-ux-designer -y"
+  },
+  "kind": "collection",
+  "license": "MIT",
+  "name": "bencium-design-skills",
+  "origin": "~/.claude/skills/bencium-marketplace (broken HTML copy)",
+  "related_repos": [
+    "bencium/bencium-marketplace"
+  ],
+  "repo": "bencium/bencium-claude-code-design-skill",
+  "skills_count": 13,
+  "stars": 476,
+  "tags": [
+    "design",
+    "ux",
+    "conventions",
+    "plugin-marketplace"
+  ],
+  "url": "https://github.com/bencium/bencium-claude-code-design-skill",
+  "vendored": false
+}

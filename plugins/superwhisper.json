@@ -1,0 +1,23 @@
+{
+  "added": "2026-11-03",
+  "description": "Superwhisper voice integration: speaks a notification when the agent finishes a task so you can dictate the next command. Skill /superwhisper toggles it on/off.",
+  "install": {
+    "claude_code": "/plugin marketplace add superultrainc/superwhisper-claude-code, then /plugin install superwhisper@superwhisper",
+    "requires": "Superwhisper app installed on macOS"
+  },
+  "kind": "plugin",
+  "license": "",
+  "name": "superwhisper",
+  "origin": "~/.claude/plugins/cache/superwhisper (user scope)",
+  "repo": "superultrainc/superwhisper-claude-code",
+  "stars": 61,
+  "tags": [
+    "voice",
+    "notifications",
+    "productivity",
+    "plugin"
+  ],
+  "url": "https://github.com/superultrainc/superwhisper-claude-code",
+  "vendored": false,
+  "version_used": "1.0.0"
+}

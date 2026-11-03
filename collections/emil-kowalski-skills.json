@@ -1,0 +1,23 @@
+{
+  "added": "2026-11-03",
+  "description": "Emil Kowalski's skills for design engineers: emil-design-eng (animation and UI polish), review-animations, improve-animations, find-animation-opportunities, animation-vocabulary, pick-ui-library.",
+  "install": {
+    "all": "npx -y skills add emilkowalski/skills --all -y",
+    "example": "npx -y skills add emilkowalski/skills --skill emil-design-eng -y"
+  },
+  "kind": "collection",
+  "license": "MIT",
+  "name": "emil-kowalski-skills",
+  "origin": "~/.claude/skills/emil-kowalski-skills (broken HTML copy)",
+  "repo": "emilkowalski/skills",
+  "skills_count": 10,
+  "stars": 53040,
+  "tags": [
+    "design",
+    "animation",
+    "motion",
+    "ui"
+  ],
+  "url": "https://github.com/emilkowalski/skills",
+  "vendored": false
+}

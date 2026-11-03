@@ -1,0 +1,24 @@
+{
+  "added": "2026-11-03",
+  "description": "Anthropic's public Agent Skills: docx, pdf, pptx, xlsx, skill-creator, frontend-design, mcp-builder, webapp-testing, canvas-design, theme-factory and more. The proprietary copies synced from claude.ai are not redistributed here.",
+  "install": {
+    "documents": "npx -y skills add anthropics/skills --skill docx --skill pdf --skill pptx --skill xlsx -y",
+    "example": "npx -y skills add anthropics/skills --skill pdf -y",
+    "skill_creator": "npx -y skills add anthropics/skills --skill skill-creator -y"
+  },
+  "kind": "collection",
+  "license": "see repo (per-skill LICENSE.txt)",
+  "name": "anthropic-skills",
+  "origin": "~/.claude/skills/synced/* (claude.ai synced, proprietary license)",
+  "repo": "anthropics/skills",
+  "skills_count": 20,
+  "stars": 186775,
+  "tags": [
+    "documents",
+    "office",
+    "skill-authoring",
+    "anthropic"
+  ],
+  "url": "https://github.com/anthropics/skills",
+  "vendored": false
+}

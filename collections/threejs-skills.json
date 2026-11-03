@@ -1,0 +1,23 @@
+{
+  "added": "2026-11-03",
+  "description": "Curated Three.js skill files (fundamentals, geometry, materials, lighting, animation, shaders, post-processing) for building 3D web experiences.",
+  "install": {
+    "all": "npx -y skills add CloudAI-X/threejs-skills --all -y",
+    "list": "npx -y skills add CloudAI-X/threejs-skills --list"
+  },
+  "kind": "collection",
+  "license": "MIT",
+  "name": "threejs-skills",
+  "origin": "~/.claude/skills/threejs-skills (broken HTML copy)",
+  "repo": "CloudAI-X/threejs-skills",
+  "skills_count": 0,
+  "stars": 3926,
+  "tags": [
+    "threejs",
+    "3d",
+    "webgl",
+    "creative"
+  ],
+  "url": "https://github.com/CloudAI-X/threejs-skills",
+  "vendored": false
+}

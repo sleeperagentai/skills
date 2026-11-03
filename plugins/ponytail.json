@@ -1,0 +1,24 @@
+{
+  "added": "2026-11-03",
+  "description": "Lazy senior dev mode: forces the simplest, shortest solution that works (YAGNI, stdlib first, no unrequested abstractions). Ships skills ponytail, ponytail-review, ponytail-audit, ponytail-debt, ponytail-gain, ponytail-help plus hooks and a status line.",
+  "install": {
+    "claude_code": "/plugin marketplace add DietrichGebert/ponytail, then /plugin install ponytail@ponytail",
+    "other_agents": "See README: Codex, Cursor, OpenCode, Gemini, Kiro, Windsurf, Cline, OpenClaw and Hermes adapters are included in the repo.",
+    "skills_cli": "npx -y skills add DietrichGebert/ponytail --all -y"
+  },
+  "kind": "plugin",
+  "license": "MIT",
+  "name": "ponytail",
+  "origin": "~/.claude/plugins/cache/ponytail (project scope: ~/Workspace/openstudio)",
+  "repo": "DietrichGebert/ponytail",
+  "stars": 182905,
+  "tags": [
+    "code-quality",
+    "simplicity",
+    "review",
+    "plugin"
+  ],
+  "url": "https://github.com/DietrichGebert/ponytail",
+  "vendored": false,
+  "version_used": "4.10.0"
+}

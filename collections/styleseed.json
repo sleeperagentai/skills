@@ -1,0 +1,22 @@
+{
+  "added": "2026-11-03",
+  "description": "StyleSeed design-method engine: ss-setup wizard scaffolds a DESIGN-LANGUAGE.md and golden rules for a project; ss-update keeps the engine current.",
+  "install": {
+    "all": "npx -y skills add bitjaru/styleseed --all -y",
+    "example": "npx -y skills add bitjaru/styleseed --skill ss-setup -y"
+  },
+  "kind": "collection",
+  "license": "MIT",
+  "name": "styleseed",
+  "origin": "~/.claude/skills/styleseed (broken HTML copy)",
+  "repo": "bitjaru/styleseed",
+  "skills_count": 2,
+  "stars": 998,
+  "tags": [
+    "design",
+    "design-system",
+    "workflow"
+  ],
+  "url": "https://github.com/bitjaru/styleseed",
+  "vendored": false
+}

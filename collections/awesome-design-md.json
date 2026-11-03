@@ -1,0 +1,23 @@
+{
+  "added": "2026-11-03",
+  "description": "Library of DESIGN.md files reverse-engineered from popular brand design systems (color, type, components, layout). Drop one into a project root and tell the agent to follow it.",
+  "install": {
+    "clone": "git clone --depth 1 https://github.com/VoltAgent/awesome-design-md",
+    "usage": "Copy the wanted <site>/DESIGN.md into your project root and reference it from your agent instructions (AGENTS.md / CLAUDE.md)."
+  },
+  "kind": "collection",
+  "license": "MIT",
+  "name": "awesome-design-md",
+  "origin": "~/.claude/skills/awesome-designmd (broken HTML copy)",
+  "repo": "VoltAgent/awesome-design-md",
+  "skills_count": 0,
+  "stars": 125272,
+  "tags": [
+    "design",
+    "design-system",
+    "DESIGN.md",
+    "reference"
+  ],
+  "url": "https://github.com/VoltAgent/awesome-design-md",
+  "vendored": false
+}

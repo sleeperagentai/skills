@@ -1,0 +1,23 @@
+{
+  "added": "2026-11-03",
+  "description": "Vercel's official agent skills: react-best-practices, web-design-guidelines, composition-patterns, react-view-transitions, react-native, deploy-to-vercel, vercel-optimize, writing-guidelines.",
+  "install": {
+    "all": "npx -y skills add vercel-labs/agent-skills --all -y",
+    "example": "npx -y skills add vercel-labs/agent-skills --skill vercel-react-best-practices -y"
+  },
+  "kind": "collection",
+  "license": "see repo",
+  "name": "vercel-agent-skills",
+  "origin": "web-design-guidelines vendored under skills/design; rest referenced here",
+  "repo": "vercel-labs/agent-skills",
+  "skills_count": 9,
+  "stars": 33422,
+  "tags": [
+    "react",
+    "nextjs",
+    "vercel",
+    "web"
+  ],
+  "url": "https://github.com/vercel-labs/agent-skills",
+  "vendored": false
+}
