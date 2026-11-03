@@ -1,0 +1,43 @@
+{
+  "added": "2026-11-03",
+  "added_by": "skill-finder",
+  "aliases": [
+    "grill",
+    "grill-me-engine"
+  ],
+  "category": "engineering",
+  "description": "Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill grilling -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill grilling -y",
+    "upstream": "npx -y skills add mattpocock/skills --skill grilling -y"
+  },
+  "license": "MIT",
+  "modified": false,
+  "name": "grilling",
+  "quality": {
+    "upstream_installs": 0,
+    "upstream_stars": 310258,
+    "verdict": "ok",
+    "vetted_on": "2026-11-03"
+  },
+  "schema_version": 1,
+  "source": {
+    "commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+    "installed_via": "skill-finder",
+    "path": "skills/productivity/grilling",
+    "repo": "mattpocock/skills",
+    "type": "github",
+    "url": "https://github.com/mattpocock/skills/tree/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/skills/productivity/grilling"
+  },
+  "tags": [
+    "interview",
+    "requirements",
+    "plan",
+    "design",
+    "stress-test",
+    "questions"
+  ],
+  "triggers": [],
+  "vendored": true
+}
