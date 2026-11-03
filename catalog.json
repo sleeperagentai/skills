@@ -240,7 +240,7 @@
   "counts": {
     "collections": 9,
     "plugins": 2,
-    "skills": 142
+    "skills": 143
   },
   "default_branch": "main",
   "plugins": [
@@ -1251,6 +1251,42 @@
         "typography",
         "ui",
         "website"
+      ],
+      "triggers": [],
+      "vendored": true
+    },
+    {
+      "added": "2026-11-03",
+      "aliases": [
+        "emil",
+        "emil-kowalski"
+      ],
+      "category": "design",
+      "category_label": "UI, UX, visual design systems, styling and anti-slop frontend taste",
+      "compatibility": "",
+      "description": "This skill encodes Emil Kowalski's philosophy on UI polish, component design, animation decisions, and the invisible details that make software feel great.",
+      "install": {
+        "global": "npx -y skills add sleeperagentai/skills --skill emil-design-eng -g -y",
+        "project": "npx -y skills add sleeperagentai/skills --skill emil-design-eng -y",
+        "upstream": "npx -y skills add emilkowalski/skills --skill emil-design-eng -y"
+      },
+      "kind": "skill",
+      "license": "MIT",
+      "name": "emil-design-eng",
+      "path": "skills/design/emil-design-eng",
+      "source": {
+        "commit": "f1090bec277140d02ed202440185ad9d02ac1490",
+        "installed_via": "skill-finder",
+        "path": "skills/emil-design-eng",
+        "repo": "emilkowalski/skills",
+        "type": "github",
+        "url": "https://github.com/emilkowalski/skills/tree/f1090bec277140d02ed202440185ad9d02ac1490/skills/emil-design-eng"
+      },
+      "tags": [
+        "animation",
+        "design-engineering",
+        "motion",
+        "ui-polish"
       ],
       "triggers": [],
       "vendored": true
