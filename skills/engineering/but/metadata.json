@@ -1,0 +1,49 @@
+{
+  "added": "2026-11-03",
+  "added_by": "manual",
+  "aliases": [
+    "gitbutler",
+    "gitbutler-skill",
+    "but-cli"
+  ],
+  "category": "engineering",
+  "description": "Commit, push, branch, and manage version control with GitButler. Use for commits, selective dirty-file or hunk commits, branches, diffs, PRs, history edits, squashes, amends, undo, merge, fetching, pulling and syncing a branch with its remote, apply, unapply, and linked worktrees. For selected dirty",
+  "install": {
+    "global": "npx -y skills add sleeperagentai/skills --skill but -g -y",
+    "project": "npx -y skills add sleeperagentai/skills --skill but -y",
+    "upstream": "but skill install   # from the GitButler CLI, keeps the skill in step with the installed but version"
+  },
+  "license": "FSL-1.1-MIT",
+  "license_note": "GitButler is Functional Source License 1.1 with MIT future license; LICENSE copied from the repo root.",
+  "modified": false,
+  "name": "but",
+  "schema_version": 1,
+  "source": {
+    "commit": "6bf4a5382d57d01c2ff9191aefbe5e12a9883c24",
+    "installed_via": "but skill install (GitButler CLI 0.23.2 writes the version-matched skill to ~/.claude/skills/gitbutler)",
+    "note": "The in-repo SKILL.md carries a 0.0.0 placeholder version; the CLI stamps the real version on install, so this copy comes from the installed 0.23.2 artefact.",
+    "origin": "~/.claude/skills/gitbutler",
+    "path": "crates/but/skill",
+    "repo": "gitbutlerapp/gitbutler",
+    "type": "github",
+    "url": "https://github.com/gitbutlerapp/gitbutler/tree/6bf4a5382d57d01c2ff9191aefbe5e12a9883c24/crates/but/skill",
+    "version": "0.23.2"
+  },
+  "tags": [
+    "gitbutler",
+    "but",
+    "git",
+    "version-control",
+    "commits",
+    "branches",
+    "stacks",
+    "pull-request",
+    "worktrees"
+  ],
+  "triggers": [
+    "gitbutler",
+    "but commit",
+    "but status"
+  ],
+  "vendored": true
+}
